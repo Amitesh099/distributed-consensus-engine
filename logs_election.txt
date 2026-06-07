@@ -1,0 +1,20 @@
+node2  | 09:43:40 [node2] INFO [ELECTION] node2 starting Bully election.
+node2  | 09:43:40 [node2] INFO [ELECTION] Received OK from node4 — stepping down.
+node2  | 09:43:40 [node2] INFO [ELECTION] New coordinator: node5
+node2  | 09:43:40 [node2] INFO [ELECTION] Received OK from node3 — stepping down.
+node2  | 09:43:40 [node2] INFO [ELECTION] Received OK from node5 — stepping down.
+node4  | 09:43:40 [node4] INFO [ELECTION] node4 starting Bully election.
+node4  | 09:43:40 [node4] INFO [ELECTION] New coordinator: node5
+node4  | 09:43:40 [node4] INFO [ELECTION] Received OK from node5 — stepping down.
+node4  | 09:43:40 [node4] INFO [ELECTION] node4 starting Bully election.
+node4  | 09:43:40 [node4] INFO [ELECTION] Received OK from node5 — stepping down.
+node1  | 09:43:40 [node1] INFO [ELECTION] New coordinator: node5
+node3  | 09:43:40 [node3] INFO [ELECTION] node3 starting Bully election.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node4 — stepping down.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node5 — stepping down.
+node3  | 09:43:40 [node3] INFO [ELECTION] New coordinator: node5
+node3  | 09:43:40 [node3] INFO [ELECTION] node3 starting Bully election.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node4 — stepping down.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node5 — stepping down.
+node5  | 09:43:40 [node5] INFO [ELECTION] node5 starting Bully election.
+node5  | 09:43:40 [node5] INFO [ELECTION] node5 is now COORDINATOR (leader).

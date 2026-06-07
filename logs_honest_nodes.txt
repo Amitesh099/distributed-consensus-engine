@@ -1,0 +1,1120 @@
+node3  | [crypto] Generated keypair for node3
+node3  | [entrypoint] Generated keys for node3
+node3  | [entrypoint] Starting node node3 mode=B
+node3  | 09:43:33 [node3] INFO Node node3 listening on :5003  mode=B
+node3  | 09:43:40 [node3] WARNING Leader heartbeat timeout — starting election.
+node3  | 09:43:40 [node3] INFO [ELECTION] node3 starting Bully election.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node4 — stepping down.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node5 — stepping down.
+node3  | 09:43:40 [node3] INFO [ELECTION] New coordinator: node5
+node3  | 09:43:40 [node3] INFO [ELECTION] node3 starting Bully election.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node4 — stepping down.
+node3  | 09:43:40 [node3] INFO [ELECTION] Received OK from node5 — stepping down.
+node3  | 09:45:14 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=1 from node5
+node3  | 09:45:14 [node3] INFO [PBFT] PREPARE quorum reached seq=1 (3 votes)
+node3  | 09:45:14 [node3] INFO [PBFT] Sent PREPARE  seq=1
+node3  | 09:45:14 [node3] INFO [PBFT] Sent COMMIT  seq=1
+node3  | 09:45:14 [node3] INFO [PBFT] PREPARE quorum reached seq=1 (4 votes)
+node3  | 09:45:14 [node3] INFO [PBFT] PREPARE quorum reached seq=1 (5 votes)
+node3  | 09:45:14 [node3] INFO [PBFT] PREPARE quorum reached seq=1 (6 votes)
+node3  | 09:45:14 [node3] INFO [LEDGER] Committed tx: TX-0001-1780825514380  (total=1)
+node3  | 09:45:14 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=1  tx=TX-0001-1780825514380
+node3  | 09:45:14 [node3] INFO [PBFT] Sent COMMIT  seq=1
+node3  | 09:45:14 [node3] INFO [PBFT] Sent COMMIT  seq=1
+node3  | 09:45:14 [node3] INFO [PBFT] Sent COMMIT  seq=1
+node3  | 09:45:15 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=2 from node5
+node3  | 09:45:15 [node3] INFO [PBFT] PREPARE quorum reached seq=2 (3 votes)
+node3  | 09:45:15 [node3] INFO [PBFT] Sent PREPARE  seq=2
+node3  | 09:45:15 [node3] INFO [PBFT] Sent COMMIT  seq=2
+node3  | 09:45:15 [node3] INFO [LEDGER] Committed tx: TX-0002-1780825515388  (total=2)
+node3  | 09:45:15 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=2  tx=TX-0002-1780825515388
+node3  | 09:45:16 [node3] INFO [CLIENT] Received transaction: TX-0003-1780825516391
+node3  | 09:45:16 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=3 from node5
+node3  | 09:45:16 [node3] INFO [PBFT] Sent PREPARE  seq=3
+node3  | 09:45:16 [node3] INFO [PBFT] PREPARE quorum reached seq=3 (3 votes)
+node3  | 09:45:16 [node3] INFO [PBFT] PREPARE quorum reached seq=3 (4 votes)
+node3  | 09:45:16 [node3] INFO [PBFT] PREPARE quorum reached seq=3 (5 votes)
+node3  | 09:45:16 [node3] INFO [PBFT] PREPARE quorum reached seq=3 (6 votes)
+node3  | 09:45:16 [node3] INFO [LEDGER] Committed tx: TX-0003-1780825516391  (total=3)
+node3  | 09:45:16 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=3  tx=TX-0003-1780825516391
+node3  | 09:45:16 [node3] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=3 — IGNORED
+node4  | [crypto] Generated keypair for node4
+node4  | [entrypoint] Generated keys for node4
+node4  | [entrypoint] Starting node node4 mode=B
+node4  | 09:43:33 [node4] INFO Node node4 listening on :5004  mode=B
+node4  | 09:43:40 [node4] INFO [ELECTION] node4 starting Bully election.
+node4  | 09:43:40 [node4] INFO [ELECTION] New coordinator: node5
+node4  | 09:43:40 [node4] INFO [ELECTION] Received OK from node5 — stepping down.
+node4  | 09:43:40 [node4] INFO [ELECTION] node4 starting Bully election.
+node4  | 09:43:40 [node4] INFO [ELECTION] Received OK from node5 — stepping down.
+node4  | 09:45:14 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=1 from node5
+node4  | 09:45:14 [node4] INFO [PBFT] PREPARE quorum reached seq=1 (3 votes)
+node4  | 09:45:14 [node4] INFO [PBFT] PREPARE quorum reached seq=1 (4 votes)
+node4  | 09:45:14 [node4] INFO [PBFT] Sent PREPARE  seq=1
+node4  | 09:45:14 [node4] INFO [PBFT] PREPARE quorum reached seq=1 (5 votes)
+node4  | 09:45:14 [node4] INFO [PBFT] PREPARE quorum reached seq=1 (6 votes)
+node4  | 09:45:14 [node4] INFO [PBFT] Sent COMMIT  seq=1
+node4  | 09:45:14 [node4] INFO [LEDGER] Committed tx: TX-0001-1780825514380  (total=1)
+node4  | 09:45:14 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=1  tx=TX-0001-1780825514380
+node4  | 09:45:14 [node4] INFO [PBFT] Sent COMMIT  seq=1
+node4  | 09:45:14 [node4] INFO [PBFT] Sent COMMIT  seq=1
+node4  | 09:45:14 [node4] INFO [PBFT] Sent COMMIT  seq=1
+node4  | 09:45:15 [node4] INFO [CLIENT] Received transaction: TX-0002-1780825515388
+node4  | 09:45:15 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=2 from node5
+node4  | 09:45:15 [node4] INFO [PBFT] PREPARE quorum reached seq=2 (3 votes)
+node4  | 09:45:15 [node4] INFO [PBFT] PREPARE quorum reached seq=2 (4 votes)
+node4  | 09:45:15 [node4] INFO [PBFT] Sent PREPARE  seq=2
+node4  | 09:45:15 [node4] INFO [LEDGER] Committed tx: TX-0002-1780825515388  (total=2)
+node4  | 09:45:15 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=2  tx=TX-0002-1780825515388
+node4  | 09:45:15 [node4] INFO [PBFT] Sent COMMIT  seq=2
+node4  | 09:45:15 [node4] INFO [PBFT] Sent COMMIT  seq=2
+node4  | 09:45:16 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=3 from node5
+node4  | 09:45:16 [node4] INFO [PBFT] Sent PREPARE  seq=3
+node4  | 09:45:16 [node4] INFO [PBFT] PREPARE quorum reached seq=3 (3 votes)
+node4  | 09:45:16 [node4] INFO [PBFT] PREPARE quorum reached seq=3 (4 votes)
+node4  | 09:45:16 [node4] INFO [PBFT] PREPARE quorum reached seq=3 (5 votes)
+node4  | 09:45:16 [node4] INFO [PBFT] PREPARE quorum reached seq=3 (6 votes)
+node4  | 09:45:16 [node4] INFO [LEDGER] Committed tx: TX-0003-1780825516391  (total=3)
+node4  | 09:45:16 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=3  tx=TX-0003-1780825516391
+node4  | 09:45:16 [node4] INFO [PBFT] Sent COMMIT  seq=3
+node4  | 09:45:16 [node4] INFO [PBFT] Sent COMMIT  seq=3
+node4  | 09:45:16 [node4] INFO [PBFT] Sent COMMIT  seq=3
+node4  | 09:45:16 [node4] INFO [PBFT] Sent COMMIT  seq=3
+node4  | 09:45:17 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=4 from node5
+node4  | 09:45:17 [node4] INFO [PBFT] PREPARE quorum reached seq=4 (3 votes)
+node4  | 09:45:17 [node4] INFO [PBFT] PREPARE quorum reached seq=4 (4 votes)
+node4  | 09:45:17 [node4] INFO [PBFT] PREPARE quorum reached seq=4 (5 votes)
+node4  | 09:45:17 [node4] INFO [PBFT] Sent PREPARE  seq=4
+node4  | 09:45:17 [node4] INFO [LEDGER] Committed tx: TX-0004-1780825517391  (total=4)
+node4  | 09:45:17 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=4  tx=TX-0004-1780825517391
+node4  | 09:45:17 [node4] INFO [PBFT] Sent COMMIT  seq=4
+node4  | 09:45:17 [node4] INFO [PBFT] Sent COMMIT  seq=4
+node4  | 09:45:17 [node4] INFO [PBFT] Sent COMMIT  seq=4
+node4  | 09:45:18 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=5 from node5
+node4  | 09:45:18 [node4] INFO [PBFT] Sent PREPARE  seq=5
+node4  | 09:45:18 [node4] INFO [PBFT] PREPARE quorum reached seq=5 (3 votes)
+node4  | 09:45:18 [node4] INFO [PBFT] PREPARE quorum reached seq=5 (4 votes)
+node4  | 09:45:18 [node4] INFO [LEDGER] Committed tx: TX-0005-1780825518395  (total=5)
+node4  | 09:45:18 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=5  tx=TX-0005-1780825518395
+node4  | 09:45:18 [node4] INFO [PBFT] Sent COMMIT  seq=5
+node4  | 09:45:18 [node4] INFO [PBFT] Sent COMMIT  seq=5
+node4  | 09:45:18 [node4] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=5 — IGNORED
+node4  | 09:45:19 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=6 from node5
+node4  | 09:45:19 [node4] INFO [PBFT] PREPARE quorum reached seq=6 (3 votes)
+node4  | 09:45:19 [node4] INFO [PBFT] PREPARE quorum reached seq=6 (4 votes)
+node4  | 09:45:19 [node4] INFO [PBFT] Sent PREPARE  seq=6
+node4  | 09:45:19 [node4] INFO [LEDGER] Committed tx: TX-0006-1780825519398  (total=6)
+node4  | 09:45:19 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=6  tx=TX-0006-1780825519398
+node4  | 09:45:19 [node4] INFO [PBFT] Sent COMMIT  seq=6
+node4  | 09:45:19 [node4] INFO [PBFT] Sent COMMIT  seq=6
+node4  | 09:45:20 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=7 from node5
+node4  | 09:45:20 [node4] INFO [PBFT] Sent PREPARE  seq=7
+node4  | 09:45:20 [node4] INFO [PBFT] PREPARE quorum reached seq=7 (3 votes)
+node4  | 09:45:20 [node4] INFO [PBFT] PREPARE quorum reached seq=7 (4 votes)
+node4  | 09:45:20 [node4] INFO [PBFT] PREPARE quorum reached seq=7 (5 votes)
+node4  | 09:45:20 [node4] INFO [LEDGER] Committed tx: TX-0007-1780825520400  (total=7)
+node4  | 09:45:20 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=7  tx=TX-0007-1780825520400
+node4  | 09:45:20 [node4] INFO [PBFT] Sent COMMIT  seq=7
+node4  | 09:45:20 [node4] INFO [PBFT] Sent COMMIT  seq=7
+node4  | 09:45:20 [node4] INFO [PBFT] Sent COMMIT  seq=7
+node4  | 09:45:21 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=8 from node5
+node4  | 09:45:21 [node4] INFO [PBFT] Sent PREPARE  seq=8
+node4  | 09:45:21 [node4] INFO [PBFT] PREPARE quorum reached seq=8 (3 votes)
+node1  | [crypto] Generated keypair for node1
+node1  | [entrypoint] Generated keys for node1
+node1  | [entrypoint] Starting node node1 mode=B
+node1  | 09:43:33 [node1] INFO Node node1 listening on :5001  mode=B
+node1  | 09:43:40 [node1] INFO [ELECTION] New coordinator: node5
+node1  | 09:45:14 [node1] INFO [CLIENT] Received transaction: TX-0001-1780825514380
+node1  | 09:45:14 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=1 from node5
+node1  | 09:45:14 [node1] INFO [PBFT] PREPARE quorum reached seq=1 (3 votes)
+node1  | 09:45:14 [node1] INFO [PBFT] PREPARE quorum reached seq=1 (4 votes)
+node1  | 09:45:14 [node1] INFO [PBFT] PREPARE quorum reached seq=1 (5 votes)
+node1  | 09:45:14 [node1] INFO [PBFT] PREPARE quorum reached seq=1 (6 votes)
+node1  | 09:45:14 [node1] INFO [PBFT] Sent PREPARE  seq=1
+node1  | 09:45:14 [node1] INFO [PBFT] Sent COMMIT  seq=1
+node1  | 09:45:14 [node1] INFO [LEDGER] Committed tx: TX-0001-1780825514380  (total=1)
+node1  | 09:45:14 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=1  tx=TX-0001-1780825514380
+node1  | 09:45:14 [node1] INFO [PBFT] Sent COMMIT  seq=1
+node1  | 09:45:14 [node1] INFO [PBFT] Sent COMMIT  seq=1
+node1  | 09:45:14 [node1] INFO [PBFT] Sent COMMIT  seq=1
+node1  | 09:45:15 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=2 from node5
+node1  | 09:45:15 [node1] INFO [PBFT] Sent PREPARE  seq=2
+node1  | 09:45:15 [node1] INFO [PBFT] PREPARE quorum reached seq=2 (3 votes)
+node1  | 09:45:15 [node1] INFO [PBFT] PREPARE quorum reached seq=2 (4 votes)
+node1  | 09:45:15 [node1] INFO [LEDGER] Committed tx: TX-0002-1780825515388  (total=2)
+node1  | 09:45:15 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=2  tx=TX-0002-1780825515388
+node1  | 09:45:15 [node1] INFO [PBFT] Sent COMMIT  seq=2
+node1  | 09:45:15 [node1] INFO [PBFT] Sent COMMIT  seq=2
+node1  | 09:45:15 [node1] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=2 — IGNORED
+node1  | 09:45:16 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=3 from node5
+node1  | 09:45:16 [node1] INFO [PBFT] PREPARE quorum reached seq=3 (3 votes)
+node1  | 09:45:16 [node1] INFO [PBFT] PREPARE quorum reached seq=3 (4 votes)
+node1  | 09:45:16 [node1] INFO [PBFT] PREPARE quorum reached seq=3 (5 votes)
+node1  | 09:45:16 [node1] INFO [PBFT] Sent PREPARE  seq=3
+node1  | 09:45:16 [node1] INFO [PBFT] PREPARE quorum reached seq=3 (6 votes)
+node1  | 09:45:16 [node1] INFO [PBFT] Sent COMMIT  seq=3
+node1  | 09:45:16 [node1] INFO [LEDGER] Committed tx: TX-0003-1780825516391  (total=3)
+node1  | 09:45:16 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=3  tx=TX-0003-1780825516391
+node1  | 09:45:16 [node1] INFO [PBFT] Sent COMMIT  seq=3
+node1  | 09:45:16 [node1] INFO [PBFT] Sent COMMIT  seq=3
+node1  | 09:45:16 [node1] INFO [PBFT] Sent COMMIT  seq=3
+node1  | 09:45:17 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=4 from node5
+node1  | 09:45:17 [node1] INFO [PBFT] PREPARE quorum reached seq=4 (3 votes)
+node1  | 09:45:17 [node1] INFO [PBFT] PREPARE quorum reached seq=4 (4 votes)
+node1  | 09:45:17 [node1] INFO [PBFT] Sent PREPARE  seq=4
+node1  | 09:45:17 [node1] INFO [PBFT] PREPARE quorum reached seq=4 (5 votes)
+node1  | 09:45:17 [node1] INFO [PBFT] PREPARE quorum reached seq=4 (6 votes)
+node1  | 09:45:17 [node1] INFO [PBFT] Sent COMMIT  seq=4
+node1  | 09:45:17 [node1] INFO [LEDGER] Committed tx: TX-0004-1780825517391  (total=4)
+node1  | 09:45:17 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=4  tx=TX-0004-1780825517391
+node1  | 09:45:17 [node1] INFO [PBFT] Sent COMMIT  seq=4
+node1  | 09:45:17 [node1] INFO [PBFT] Sent COMMIT  seq=4
+node1  | 09:45:17 [node1] INFO [PBFT] Sent COMMIT  seq=4
+node1  | 09:45:18 [node1] INFO [CLIENT] Received transaction: TX-0005-1780825518395
+node1  | 09:45:18 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=5 from node5
+node1  | 09:45:18 [node1] INFO [PBFT] Sent PREPARE  seq=5
+node1  | 09:45:18 [node1] INFO [PBFT] PREPARE quorum reached seq=5 (3 votes)
+node1  | 09:45:18 [node1] INFO [PBFT] PREPARE quorum reached seq=5 (4 votes)
+node1  | 09:45:18 [node1] INFO [PBFT] PREPARE quorum reached seq=5 (5 votes)
+node1  | 09:45:18 [node1] INFO [PBFT] PREPARE quorum reached seq=5 (6 votes)
+node1  | 09:45:18 [node1] INFO [LEDGER] Committed tx: TX-0005-1780825518395  (total=5)
+node1  | 09:45:18 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=5  tx=TX-0005-1780825518395
+node1  | 09:45:18 [node1] INFO [PBFT] Sent COMMIT  seq=5
+node1  | 09:45:18 [node1] INFO [PBFT] Sent COMMIT  seq=5
+node1  | 09:45:18 [node1] INFO [PBFT] Sent COMMIT  seq=5
+node1  | 09:45:18 [node1] INFO [PBFT] Sent COMMIT  seq=5
+node1  | 09:45:19 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=6 from node5
+node1  | 09:45:19 [node1] INFO [PBFT] Sent PREPARE  seq=6
+node1  | 09:45:19 [node1] INFO [PBFT] PREPARE quorum reached seq=6 (3 votes)
+node1  | 09:45:19 [node1] INFO [PBFT] PREPARE quorum reached seq=6 (4 votes)
+node1  | 09:45:19 [node1] INFO [PBFT] Sent COMMIT  seq=6
+node1  | 09:45:19 [node1] INFO [PBFT] Sent COMMIT  seq=6
+node1  | 09:45:19 [node1] INFO [PBFT] PREPARE quorum reached seq=6 (5 votes)
+node1  | 09:45:19 [node1] INFO [LEDGER] Committed tx: TX-0006-1780825519398  (total=6)
+node1  | 09:45:19 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=6  tx=TX-0006-1780825519398
+node1  | 09:45:19 [node1] INFO [PBFT] Sent COMMIT  seq=6
+node1  | 09:45:20 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=7 from node5
+node3  | 09:45:16 [node3] INFO [PBFT] Sent COMMIT  seq=3
+node3  | 09:45:16 [node3] INFO [PBFT] Sent COMMIT  seq=3
+node3  | 09:45:16 [node3] INFO [PBFT] Sent COMMIT  seq=3
+node3  | 09:45:16 [node3] INFO [PBFT] Sent COMMIT  seq=3
+node3  | 09:45:17 [node3] INFO [CLIENT] Received transaction: TX-0004-1780825517391
+node3  | 09:45:17 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=4 from node5
+node3  | 09:45:17 [node3] INFO [PBFT] Sent PREPARE  seq=4
+node3  | 09:45:17 [node3] INFO [PBFT] PREPARE quorum reached seq=4 (3 votes)
+node3  | 09:45:17 [node3] INFO [PBFT] PREPARE quorum reached seq=4 (4 votes)
+node3  | 09:45:17 [node3] INFO [PBFT] PREPARE quorum reached seq=4 (5 votes)
+node3  | 09:45:17 [node3] INFO [PBFT] PREPARE quorum reached seq=4 (6 votes)
+node3  | 09:45:17 [node3] INFO [LEDGER] Committed tx: TX-0004-1780825517391  (total=4)
+node3  | 09:45:17 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=4  tx=TX-0004-1780825517391
+node3  | 09:45:17 [node3] INFO [PBFT] Sent COMMIT  seq=4
+node3  | 09:45:17 [node3] INFO [PBFT] Sent COMMIT  seq=4
+node3  | 09:45:17 [node3] INFO [PBFT] Sent COMMIT  seq=4
+node3  | 09:45:17 [node3] INFO [PBFT] Sent COMMIT  seq=4
+node3  | 09:45:18 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=5 from node5
+node3  | 09:45:18 [node3] INFO [PBFT] PREPARE quorum reached seq=5 (3 votes)
+node3  | 09:45:18 [node3] INFO [PBFT] PREPARE quorum reached seq=5 (4 votes)
+node3  | 09:45:18 [node3] INFO [PBFT] Sent PREPARE  seq=5
+node3  | 09:45:18 [node3] INFO [PBFT] Sent COMMIT  seq=5
+node3  | 09:45:18 [node3] INFO [PBFT] Sent COMMIT  seq=5
+node3  | 09:45:18 [node3] INFO [PBFT] PREPARE quorum reached seq=5 (5 votes)
+node3  | 09:45:18 [node3] INFO [PBFT] PREPARE quorum reached seq=5 (6 votes)
+node3  | 09:45:18 [node3] INFO [LEDGER] Committed tx: TX-0005-1780825518395  (total=5)
+node3  | 09:45:18 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=5  tx=TX-0005-1780825518395
+node3  | 09:45:18 [node3] INFO [PBFT] Sent COMMIT  seq=5
+node3  | 09:45:18 [node3] INFO [PBFT] Sent COMMIT  seq=5
+node3  | 09:45:19 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=6 from node5
+node3  | 09:45:19 [node3] INFO [PBFT] PREPARE quorum reached seq=6 (3 votes)
+node3  | 09:45:19 [node3] INFO [PBFT] Sent PREPARE  seq=6
+node3  | 09:45:19 [node3] INFO [PBFT] Sent COMMIT  seq=6
+node3  | 09:45:19 [node3] INFO [PBFT] PREPARE quorum reached seq=6 (4 votes)
+node3  | 09:45:19 [node3] INFO [LEDGER] Committed tx: TX-0006-1780825519398  (total=6)
+node3  | 09:45:19 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=6  tx=TX-0006-1780825519398
+node3  | 09:45:19 [node3] INFO [PBFT] Sent COMMIT  seq=6
+node3  | 09:45:19 [node3] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=6 — IGNORED
+node3  | 09:45:20 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=7 from node5
+node3  | 09:45:20 [node3] INFO [PBFT] PREPARE quorum reached seq=7 (3 votes)
+node3  | 09:45:20 [node3] INFO [PBFT] PREPARE quorum reached seq=7 (4 votes)
+node3  | 09:45:20 [node3] INFO [PBFT] Sent PREPARE  seq=7
+node3  | 09:45:20 [node3] INFO [PBFT] PREPARE quorum reached seq=7 (5 votes)
+node3  | 09:45:20 [node3] INFO [PBFT] PREPARE quorum reached seq=7 (6 votes)
+node3  | 09:45:20 [node3] INFO [LEDGER] Committed tx: TX-0007-1780825520400  (total=7)
+node3  | 09:45:20 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=7  tx=TX-0007-1780825520400
+node3  | 09:45:20 [node3] INFO [PBFT] Sent COMMIT  seq=7
+node3  | 09:45:20 [node3] INFO [PBFT] Sent COMMIT  seq=7
+node3  | 09:45:20 [node3] INFO [PBFT] Sent COMMIT  seq=7
+node3  | 09:45:20 [node3] INFO [PBFT] Sent COMMIT  seq=7
+node3  | 09:45:21 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=8 from node5
+node3  | 09:45:21 [node3] INFO [PBFT] PREPARE quorum reached seq=8 (3 votes)
+node3  | 09:45:21 [node3] INFO [PBFT] PREPARE quorum reached seq=8 (4 votes)
+node3  | 09:45:21 [node3] INFO [PBFT] PREPARE quorum reached seq=8 (5 votes)
+node3  | 09:45:21 [node3] INFO [PBFT] Sent PREPARE  seq=8
+node3  | 09:45:21 [node3] INFO [PBFT] PREPARE quorum reached seq=8 (6 votes)
+node3  | 09:45:21 [node3] INFO [LEDGER] Committed tx: TX-0008-1780825521403  (total=8)
+node3  | 09:45:21 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=8  tx=TX-0008-1780825521403
+node3  | 09:45:21 [node3] INFO [PBFT] Sent COMMIT  seq=8
+node3  | 09:45:21 [node3] INFO [PBFT] Sent COMMIT  seq=8
+node3  | 09:45:21 [node3] INFO [PBFT] Sent COMMIT  seq=8
+node3  | 09:45:21 [node3] INFO [PBFT] Sent COMMIT  seq=8
+node3  | 09:45:22 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=9 from node5
+node3  | 09:45:22 [node3] INFO [PBFT] PREPARE quorum reached seq=9 (3 votes)
+node3  | 09:45:22 [node3] INFO [PBFT] Sent PREPARE  seq=9
+node3  | 09:45:22 [node3] INFO [PBFT] Sent COMMIT  seq=9
+node3  | 09:45:22 [node3] INFO [PBFT] PREPARE quorum reached seq=9 (4 votes)
+node3  | 09:45:22 [node3] INFO [LEDGER] Committed tx: TX-0009-1780825522406  (total=9)
+node3  | 09:45:22 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=9  tx=TX-0009-1780825522406
+node3  | 09:45:22 [node3] INFO [PBFT] Sent COMMIT  seq=9
+node3  | 09:45:23 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=10 from node5
+node3  | 09:45:23 [node3] INFO [PBFT] PREPARE quorum reached seq=10 (3 votes)
+node3  | 09:45:23 [node3] INFO [PBFT] Sent PREPARE  seq=10
+node3  | 09:45:23 [node3] INFO [PBFT] PREPARE quorum reached seq=10 (4 votes)
+node3  | 09:45:23 [node3] INFO [PBFT] PREPARE quorum reached seq=10 (5 votes)
+node3  | 09:45:23 [node3] INFO [PBFT] PREPARE quorum reached seq=10 (6 votes)
+node3  | 09:45:23 [node3] INFO [PBFT] Sent COMMIT  seq=10
+node3  | 09:45:23 [node3] INFO [LEDGER] Committed tx: TX-0010-1780825523409  (total=10)
+node3  | 09:45:23 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=10  tx=TX-0010-1780825523409
+node3  | 09:45:23 [node3] INFO [PBFT] Sent COMMIT  seq=10
+node3  | 09:45:23 [node3] INFO [PBFT] Sent COMMIT  seq=10
+node3  | 09:45:23 [node3] INFO [PBFT] Sent COMMIT  seq=10
+node3  | 09:45:24 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=11 from node5
+node3  | 09:45:24 [node3] INFO [PBFT] Sent PREPARE  seq=11
+node3  | 09:45:24 [node3] INFO [PBFT] PREPARE quorum reached seq=11 (3 votes)
+node3  | 09:45:24 [node3] INFO [PBFT] PREPARE quorum reached seq=11 (4 votes)
+node3  | 09:45:24 [node3] INFO [PBFT] PREPARE quorum reached seq=11 (5 votes)
+node3  | 09:45:24 [node3] INFO [LEDGER] Committed tx: TX-0011-1780825524412  (total=11)
+node3  | 09:45:24 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=11  tx=TX-0011-1780825524412
+node3  | 09:45:24 [node3] INFO [PBFT] Sent COMMIT  seq=11
+node3  | 09:45:24 [node3] INFO [PBFT] Sent COMMIT  seq=11
+node3  | 09:45:24 [node3] INFO [PBFT] Sent COMMIT  seq=11
+node3  | 09:45:25 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=12 from node5
+node3  | 09:45:25 [node3] INFO [PBFT] PREPARE quorum reached seq=12 (3 votes)
+node3  | 09:45:25 [node3] INFO [PBFT] Sent PREPARE  seq=12
+node3  | 09:45:25 [node3] INFO [PBFT] Sent COMMIT  seq=12
+node3  | 09:45:25 [node3] INFO [PBFT] PREPARE quorum reached seq=12 (4 votes)
+node3  | 09:45:25 [node3] INFO [PBFT] PREPARE quorum reached seq=12 (5 votes)
+node3  | 09:45:25 [node3] INFO [PBFT] PREPARE quorum reached seq=12 (6 votes)
+node3  | 09:45:25 [node3] INFO [LEDGER] Committed tx: TX-0012-1780825525415  (total=12)
+node3  | 09:45:25 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=12  tx=TX-0012-1780825525415
+node3  | 09:45:25 [node3] INFO [PBFT] Sent COMMIT  seq=12
+node3  | 09:45:25 [node3] INFO [PBFT] Sent COMMIT  seq=12
+node3  | 09:45:25 [node3] INFO [PBFT] Sent COMMIT  seq=12
+node3  | 09:45:26 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=13 from node5
+node3  | 09:45:26 [node3] INFO [PBFT] Sent PREPARE  seq=13
+node3  | 09:45:26 [node3] INFO [PBFT] PREPARE quorum reached seq=13 (3 votes)
+node3  | 09:45:26 [node3] INFO [PBFT] PREPARE quorum reached seq=13 (4 votes)
+node3  | 09:45:26 [node3] INFO [PBFT] PREPARE quorum reached seq=13 (5 votes)
+node3  | 09:45:26 [node3] INFO [PBFT] PREPARE quorum reached seq=13 (6 votes)
+node3  | 09:45:26 [node3] INFO [LEDGER] Committed tx: TX-0013-1780825526418  (total=13)
+node3  | 09:45:26 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=13  tx=TX-0013-1780825526418
+node3  | 09:45:26 [node3] INFO [PBFT] Sent COMMIT  seq=13
+node3  | 09:45:26 [node3] INFO [PBFT] Sent COMMIT  seq=13
+node3  | 09:45:26 [node3] INFO [PBFT] Sent COMMIT  seq=13
+node3  | 09:45:26 [node3] INFO [PBFT] Sent COMMIT  seq=13
+node3  | 09:45:27 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=14 from node5
+node3  | 09:45:27 [node3] INFO [PBFT] PREPARE quorum reached seq=14 (3 votes)
+node3  | 09:45:27 [node3] INFO [PBFT] PREPARE quorum reached seq=14 (4 votes)
+node3  | 09:45:27 [node3] INFO [PBFT] PREPARE quorum reached seq=14 (5 votes)
+node3  | 09:45:27 [node3] INFO [PBFT] Sent PREPARE  seq=14
+node3  | 09:45:27 [node3] INFO [LEDGER] Committed tx: TX-0014-1780825527420  (total=14)
+node3  | 09:45:27 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=14  tx=TX-0014-1780825527420
+node3  | 09:45:27 [node3] INFO [PBFT] Sent COMMIT  seq=14
+node3  | 09:45:27 [node3] INFO [PBFT] Sent COMMIT  seq=14
+node3  | 09:45:27 [node3] INFO [PBFT] Sent COMMIT  seq=14
+node3  | 09:45:27 [node3] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=14 — IGNORED
+node3  | 09:45:28 [node3] INFO [CLIENT] Received transaction: TX-0015-1780825528423
+node3  | 09:45:28 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=15 from node5
+node3  | 09:45:28 [node3] INFO [PBFT] PREPARE quorum reached seq=15 (3 votes)
+node3  | 09:45:28 [node3] INFO [PBFT] PREPARE quorum reached seq=15 (4 votes)
+node3  | 09:45:28 [node3] INFO [PBFT] Sent PREPARE  seq=15
+node3  | 09:45:28 [node3] INFO [LEDGER] Committed tx: TX-0015-1780825528423  (total=15)
+node3  | 09:45:28 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=15  tx=TX-0015-1780825528423
+node3  | 09:45:28 [node3] INFO [PBFT] Sent COMMIT  seq=15
+node3  | 09:45:28 [node3] INFO [PBFT] Sent COMMIT  seq=15
+node3  | 09:45:29 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=16 from node5
+node3  | 09:45:29 [node3] INFO [PBFT] Sent PREPARE  seq=16
+node3  | 09:45:29 [node3] INFO [PBFT] PREPARE quorum reached seq=16 (3 votes)
+node3  | 09:45:29 [node3] INFO [PBFT] Sent COMMIT  seq=16
+node3  | 09:45:29 [node3] INFO [PBFT] PREPARE quorum reached seq=16 (4 votes)
+node3  | 09:45:29 [node3] INFO [PBFT] PREPARE quorum reached seq=16 (5 votes)
+node3  | 09:45:29 [node3] INFO [LEDGER] Committed tx: TX-0016-1780825529426  (total=16)
+node3  | 09:45:29 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=16  tx=TX-0016-1780825529426
+node3  | 09:45:29 [node3] INFO [PBFT] Sent COMMIT  seq=16
+node3  | 09:45:29 [node3] INFO [PBFT] Sent COMMIT  seq=16
+node3  | 09:45:30 [node3] INFO [CLIENT] Received transaction: TX-0017-1780825530428
+node3  | 09:45:30 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=17 from node5
+node3  | 09:45:30 [node3] INFO [PBFT] Sent PREPARE  seq=17
+node3  | 09:45:30 [node3] INFO [PBFT] PREPARE quorum reached seq=17 (3 votes)
+node3  | 09:45:30 [node3] INFO [PBFT] Sent COMMIT  seq=17
+node3  | 09:45:30 [node3] INFO [LEDGER] Committed tx: TX-0017-1780825530428  (total=17)
+node3  | 09:45:30 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=17  tx=TX-0017-1780825530428
+node3  | 09:45:31 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=18 from node5
+node3  | 09:45:31 [node3] INFO [PBFT] Sent PREPARE  seq=18
+node3  | 09:45:31 [node3] INFO [PBFT] PREPARE quorum reached seq=18 (3 votes)
+node3  | 09:45:31 [node3] INFO [PBFT] PREPARE quorum reached seq=18 (4 votes)
+node3  | 09:45:31 [node3] INFO [PBFT] PREPARE quorum reached seq=18 (5 votes)
+node3  | 09:45:31 [node3] INFO [LEDGER] Committed tx: TX-0018-1780825531430  (total=18)
+node3  | 09:45:31 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=18  tx=TX-0018-1780825531430
+node3  | 09:45:31 [node3] INFO [PBFT] Sent COMMIT  seq=18
+node3  | 09:45:31 [node3] INFO [PBFT] Sent COMMIT  seq=18
+node3  | 09:45:31 [node3] INFO [PBFT] Sent COMMIT  seq=18
+node3  | 09:45:32 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=19 from node5
+node3  | 09:45:32 [node3] INFO [PBFT] Sent PREPARE  seq=19
+node3  | 09:45:32 [node3] INFO [PBFT] PREPARE quorum reached seq=19 (3 votes)
+node3  | 09:45:32 [node3] INFO [PBFT] Sent COMMIT  seq=19
+node3  | 09:45:32 [node3] INFO [PBFT] PREPARE quorum reached seq=19 (4 votes)
+node3  | 09:45:32 [node3] INFO [PBFT] PREPARE quorum reached seq=19 (5 votes)
+node3  | 09:45:32 [node3] INFO [LEDGER] Committed tx: TX-0019-1780825532433  (total=19)
+node3  | 09:45:32 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=19  tx=TX-0019-1780825532433
+node3  | 09:45:32 [node3] INFO [PBFT] Sent COMMIT  seq=19
+node3  | 09:45:32 [node3] INFO [PBFT] Sent COMMIT  seq=19
+node3  | 09:45:33 [node3] INFO [PBFT] Accepted PRE-PREPARE seq=20 from node5
+node3  | 09:45:33 [node3] INFO [PBFT] PREPARE quorum reached seq=20 (3 votes)
+node3  | 09:45:33 [node3] INFO [PBFT] Sent PREPARE  seq=20
+node3  | 09:45:33 [node3] INFO [PBFT] PREPARE quorum reached seq=20 (4 votes)
+node3  | 09:45:33 [node3] INFO [PBFT] PREPARE quorum reached seq=20 (5 votes)
+node3  | 09:45:33 [node3] INFO [PBFT] Sent COMMIT  seq=20
+node3  | 09:45:33 [node3] INFO [PBFT] Sent COMMIT  seq=20
+node3  | 09:45:33 [node3] INFO [LEDGER] Committed tx: TX-0020-1780825533436  (total=20)
+node3  | 09:45:33 [node3] INFO [PBFT] ✓ CONSENSUS REACHED  seq=20  tx=TX-0020-1780825533436
+node3  | 09:45:33 [node3] INFO [PBFT] Sent COMMIT  seq=20
+node5  | [crypto] Generated keypair for node5
+node5  | [entrypoint] Generated keys for node5
+node5  | [entrypoint] Starting node node5 mode=B
+node5  | 09:43:33 [node5] INFO Node node5 listening on :5005  mode=B
+node5  | 09:43:40 [node5] INFO [ELECTION] node5 starting Bully election.
+node5  | 09:43:40 [node5] INFO [ELECTION] node5 is now COORDINATOR (leader).
+node5  | 09:45:14 [node5] INFO [CLIENT] Received transaction: TX-0001-1780825514380
+node5  | 09:45:14 [node5] INFO [PBFT] PRE-PREPARE  seq=1  tx=TX-0001-1780825514380
+node5  | 09:45:14 [node5] INFO [PBFT] Sent PREPARE  seq=1
+node5  | 09:45:14 [node5] INFO [PBFT] PREPARE quorum reached seq=1 (3 votes)
+node5  | 09:45:14 [node5] INFO [PBFT] PREPARE quorum reached seq=1 (4 votes)
+node5  | 09:45:14 [node5] INFO [PBFT] PREPARE quorum reached seq=1 (5 votes)
+node5  | 09:45:14 [node5] INFO [LEDGER] Committed tx: TX-0001-1780825514380  (total=1)
+node5  | 09:45:14 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=1  tx=TX-0001-1780825514380
+node5  | 09:45:14 [node5] INFO [PBFT] Sent COMMIT  seq=1
+node5  | 09:45:14 [node5] INFO [PBFT] Sent COMMIT  seq=1
+node5  | 09:45:14 [node5] INFO [PBFT] Sent COMMIT  seq=1
+node5  | 09:45:14 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=1 — IGNORED
+node5  | 09:45:15 [node5] INFO [CLIENT] Received transaction: TX-0002-1780825515388
+node5  | 09:45:15 [node5] INFO [PBFT] PRE-PREPARE  seq=2  tx=TX-0002-1780825515388
+node5  | 09:45:15 [node5] INFO [PBFT] Sent PREPARE  seq=2
+node5  | 09:45:15 [node5] INFO [PBFT] PREPARE quorum reached seq=2 (3 votes)
+node5  | 09:45:15 [node5] INFO [PBFT] Sent COMMIT  seq=2
+node5  | 09:45:15 [node5] INFO [LEDGER] Committed tx: TX-0002-1780825515388  (total=2)
+node5  | 09:45:15 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=2  tx=TX-0002-1780825515388
+node5  | 09:45:16 [node5] INFO [CLIENT] Received transaction: TX-0003-1780825516391
+node5  | 09:45:16 [node5] INFO [PBFT] PRE-PREPARE  seq=3  tx=TX-0003-1780825516391
+node5  | 09:45:16 [node5] INFO [PBFT] PREPARE quorum reached seq=3 (3 votes)
+node5  | 09:45:16 [node5] INFO [PBFT] PREPARE quorum reached seq=3 (4 votes)
+node5  | 09:45:16 [node5] INFO [PBFT] PREPARE quorum reached seq=3 (5 votes)
+node5  | 09:45:16 [node5] INFO [PBFT] Sent PREPARE  seq=3
+node5  | 09:45:16 [node5] INFO [PBFT] Sent COMMIT  seq=3
+node5  | 09:45:16 [node5] INFO [PBFT] Sent COMMIT  seq=3
+node5  | 09:45:16 [node5] INFO [PBFT] Sent COMMIT  seq=3
+node5  | 09:45:16 [node5] INFO [PBFT] PREPARE quorum reached seq=3 (6 votes)
+node5  | 09:45:16 [node5] INFO [LEDGER] Committed tx: TX-0003-1780825516391  (total=3)
+node5  | 09:45:16 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=3  tx=TX-0003-1780825516391
+node5  | 09:45:16 [node5] INFO [PBFT] Sent COMMIT  seq=3
+node5  | 09:45:17 [node5] INFO [CLIENT] Received transaction: TX-0004-1780825517391
+node5  | 09:45:17 [node5] INFO [PBFT] PRE-PREPARE  seq=4  tx=TX-0004-1780825517391
+node5  | 09:45:17 [node5] INFO [PBFT] PREPARE quorum reached seq=4 (3 votes)
+node5  | 09:45:17 [node5] INFO [PBFT] Sent PREPARE  seq=4
+node5  | 09:45:17 [node5] INFO [PBFT] Sent COMMIT  seq=4
+node5  | 09:45:17 [node5] INFO [PBFT] PREPARE quorum reached seq=4 (4 votes)
+node5  | 09:45:17 [node5] INFO [PBFT] PREPARE quorum reached seq=4 (5 votes)
+node5  | 09:45:17 [node5] INFO [LEDGER] Committed tx: TX-0004-1780825517391  (total=4)
+node5  | 09:45:17 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=4  tx=TX-0004-1780825517391
+node5  | 09:45:17 [node5] INFO [PBFT] Sent COMMIT  seq=4
+node5  | 09:45:17 [node5] INFO [PBFT] Sent COMMIT  seq=4
+node5  | 09:45:17 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=4 — IGNORED
+node5  | 09:45:18 [node5] INFO [CLIENT] Received transaction: TX-0005-1780825518395
+node5  | 09:45:18 [node5] INFO [PBFT] PRE-PREPARE  seq=5  tx=TX-0005-1780825518395
+node5  | 09:45:18 [node5] INFO [PBFT] PREPARE quorum reached seq=5 (3 votes)
+node5  | 09:45:18 [node5] INFO [PBFT] PREPARE quorum reached seq=5 (4 votes)
+node5  | 09:45:18 [node5] INFO [PBFT] PREPARE quorum reached seq=5 (5 votes)
+node5  | 09:45:18 [node5] INFO [LEDGER] Committed tx: TX-0005-1780825518395  (total=5)
+node5  | 09:45:18 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=5  tx=TX-0005-1780825518395
+node5  | 09:45:18 [node5] INFO [PBFT] Sent PREPARE  seq=5
+node5  | 09:45:18 [node5] INFO [PBFT] Sent COMMIT  seq=5
+node5  | 09:45:18 [node5] INFO [PBFT] Sent COMMIT  seq=5
+node5  | 09:45:18 [node5] INFO [PBFT] Sent COMMIT  seq=5
+node5  | 09:45:19 [node5] INFO [CLIENT] Received transaction: TX-0006-1780825519398
+node5  | 09:45:19 [node5] INFO [PBFT] PRE-PREPARE  seq=6  tx=TX-0006-1780825519398
+node5  | 09:45:19 [node5] INFO [PBFT] PREPARE quorum reached seq=6 (3 votes)
+node5  | 09:45:19 [node5] INFO [PBFT] PREPARE quorum reached seq=6 (4 votes)
+node5  | 09:45:19 [node5] INFO [PBFT] PREPARE quorum reached seq=6 (5 votes)
+node5  | 09:45:19 [node5] INFO [PBFT] Sent PREPARE  seq=6
+node5  | 09:45:19 [node5] INFO [LEDGER] Committed tx: TX-0006-1780825519398  (total=6)
+node5  | 09:45:19 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=6  tx=TX-0006-1780825519398
+node5  | 09:45:19 [node5] INFO [PBFT] Sent COMMIT  seq=6
+node5  | 09:45:19 [node5] INFO [PBFT] Sent COMMIT  seq=6
+node5  | 09:45:19 [node5] INFO [PBFT] Sent COMMIT  seq=6
+node5  | 09:45:20 [node5] INFO [CLIENT] Received transaction: TX-0007-1780825520400
+node5  | 09:45:20 [node5] INFO [PBFT] PRE-PREPARE  seq=7  tx=TX-0007-1780825520400
+node5  | 09:45:20 [node5] INFO [PBFT] PREPARE quorum reached seq=7 (3 votes)
+node5  | 09:45:20 [node5] INFO [PBFT] Sent PREPARE  seq=7
+node5  | 09:45:20 [node5] INFO [PBFT] Sent COMMIT  seq=7
+node5  | 09:45:20 [node5] INFO [PBFT] PREPARE quorum reached seq=7 (4 votes)
+node5  | 09:45:20 [node5] INFO [PBFT] PREPARE quorum reached seq=7 (5 votes)
+node5  | 09:45:20 [node5] INFO [LEDGER] Committed tx: TX-0007-1780825520400  (total=7)
+node5  | 09:45:20 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=7  tx=TX-0007-1780825520400
+node5  | 09:45:20 [node5] INFO [PBFT] Sent COMMIT  seq=7
+node5  | 09:45:20 [node5] INFO [PBFT] Sent COMMIT  seq=7
+node5  | 09:45:20 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=7 — IGNORED
+node5  | 09:45:21 [node5] INFO [CLIENT] Received transaction: TX-0008-1780825521403
+node5  | 09:45:21 [node5] INFO [PBFT] PRE-PREPARE  seq=8  tx=TX-0008-1780825521403
+node5  | 09:45:21 [node5] INFO [PBFT] PREPARE quorum reached seq=8 (3 votes)
+node5  | 09:45:21 [node5] INFO [PBFT] Sent PREPARE  seq=8
+node5  | 09:45:21 [node5] INFO [PBFT] Sent COMMIT  seq=8
+node5  | 09:45:21 [node5] INFO [PBFT] PREPARE quorum reached seq=8 (4 votes)
+node5  | 09:45:21 [node5] INFO [PBFT] PREPARE quorum reached seq=8 (5 votes)
+node5  | 09:45:21 [node5] INFO [PBFT] Sent COMMIT  seq=8
+node5  | 09:45:21 [node5] INFO [PBFT] Sent COMMIT  seq=8
+node5  | 09:45:21 [node5] INFO [LEDGER] Committed tx: TX-0008-1780825521403  (total=8)
+node5  | 09:45:21 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=8  tx=TX-0008-1780825521403
+node5  | 09:45:22 [node5] INFO [CLIENT] Received transaction: TX-0009-1780825522406
+node5  | 09:45:22 [node5] INFO [PBFT] PRE-PREPARE  seq=9  tx=TX-0009-1780825522406
+node5  | 09:45:22 [node5] INFO [PBFT] Sent PREPARE  seq=9
+node5  | 09:45:22 [node5] INFO [PBFT] PREPARE quorum reached seq=9 (3 votes)
+node5  | 09:45:22 [node5] INFO [LEDGER] Committed tx: TX-0009-1780825522406  (total=9)
+node5  | 09:45:22 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=9  tx=TX-0009-1780825522406
+node5  | 09:45:22 [node5] INFO [PBFT] Sent COMMIT  seq=9
+node5  | 09:45:22 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=9 — IGNORED
+node5  | 09:45:23 [node5] INFO [CLIENT] Received transaction: TX-0010-1780825523409
+node5  | 09:45:23 [node5] INFO [PBFT] PRE-PREPARE  seq=10  tx=TX-0010-1780825523409
+node5  | 09:45:23 [node5] INFO [PBFT] Sent PREPARE  seq=10
+node5  | 09:45:23 [node5] INFO [PBFT] PREPARE quorum reached seq=10 (3 votes)
+node5  | 09:45:23 [node5] INFO [PBFT] PREPARE quorum reached seq=10 (4 votes)
+node5  | 09:45:23 [node5] INFO [PBFT] Sent COMMIT  seq=10
+node5  | 09:45:23 [node5] INFO [PBFT] Sent COMMIT  seq=10
+node5  | 09:45:23 [node5] INFO [LEDGER] Committed tx: TX-0010-1780825523409  (total=10)
+node5  | 09:45:23 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=10  tx=TX-0010-1780825523409
+node5  | 09:45:24 [node5] INFO [CLIENT] Received transaction: TX-0011-1780825524412
+node5  | 09:45:24 [node5] INFO [PBFT] PRE-PREPARE  seq=11  tx=TX-0011-1780825524412
+node5  | 09:45:24 [node5] INFO [PBFT] PREPARE quorum reached seq=11 (3 votes)
+node5  | 09:45:24 [node5] INFO [PBFT] Sent PREPARE  seq=11
+node5  | 09:45:24 [node5] INFO [PBFT] Sent COMMIT  seq=11
+node5  | 09:45:24 [node5] INFO [PBFT] PREPARE quorum reached seq=11 (4 votes)
+node5  | 09:45:24 [node5] INFO [PBFT] PREPARE quorum reached seq=11 (5 votes)
+node5  | 09:45:24 [node5] INFO [LEDGER] Committed tx: TX-0011-1780825524412  (total=11)
+node5  | 09:45:24 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=11  tx=TX-0011-1780825524412
+node5  | 09:45:24 [node5] INFO [PBFT] Sent COMMIT  seq=11
+node5  | 09:45:24 [node5] INFO [PBFT] Sent COMMIT  seq=11
+node5  | 09:45:24 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=11 — IGNORED
+node5  | 09:45:25 [node5] INFO [CLIENT] Received transaction: TX-0012-1780825525415
+node5  | 09:45:25 [node5] INFO [PBFT] PRE-PREPARE  seq=12  tx=TX-0012-1780825525415
+node5  | 09:45:25 [node5] INFO [PBFT] Sent PREPARE  seq=12
+node5  | 09:45:25 [node5] INFO [PBFT] PREPARE quorum reached seq=12 (3 votes)
+node5  | 09:45:25 [node5] INFO [PBFT] PREPARE quorum reached seq=12 (4 votes)
+node5  | 09:45:25 [node5] INFO [PBFT] PREPARE quorum reached seq=12 (5 votes)
+node5  | 09:45:25 [node5] INFO [LEDGER] Committed tx: TX-0012-1780825525415  (total=12)
+node5  | 09:45:25 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=12  tx=TX-0012-1780825525415
+node5  | 09:45:25 [node5] INFO [PBFT] Sent COMMIT  seq=12
+node5  | 09:45:25 [node5] INFO [PBFT] Sent COMMIT  seq=12
+node5  | 09:45:25 [node5] INFO [PBFT] Sent COMMIT  seq=12
+node5  | 09:45:25 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=12 — IGNORED
+node5  | 09:45:26 [node5] INFO [CLIENT] Received transaction: TX-0013-1780825526418
+node5  | 09:45:26 [node5] INFO [PBFT] PRE-PREPARE  seq=13  tx=TX-0013-1780825526418
+node5  | 09:45:26 [node5] INFO [PBFT] PREPARE quorum reached seq=13 (3 votes)
+node5  | 09:45:26 [node5] INFO [PBFT] Sent PREPARE  seq=13
+node5  | 09:45:26 [node5] INFO [PBFT] Sent COMMIT  seq=13
+node5  | 09:45:26 [node5] INFO [PBFT] PREPARE quorum reached seq=13 (4 votes)
+node5  | 09:45:26 [node5] INFO [PBFT] PREPARE quorum reached seq=13 (5 votes)
+node5  | 09:45:26 [node5] INFO [PBFT] PREPARE quorum reached seq=13 (6 votes)
+node5  | 09:45:26 [node5] INFO [PBFT] Sent COMMIT  seq=13
+node5  | 09:45:26 [node5] INFO [LEDGER] Committed tx: TX-0013-1780825526418  (total=13)
+node5  | 09:45:26 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=13  tx=TX-0013-1780825526418
+node5  | 09:45:26 [node5] INFO [PBFT] Sent COMMIT  seq=13
+node5  | 09:45:26 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=13 — IGNORED
+node5  | 09:45:26 [node5] INFO [PBFT] Sent COMMIT  seq=13
+node5  | 09:45:27 [node5] INFO [CLIENT] Received transaction: TX-0014-1780825527420
+node5  | 09:45:27 [node5] INFO [PBFT] PRE-PREPARE  seq=14  tx=TX-0014-1780825527420
+node5  | 09:45:27 [node5] INFO [PBFT] PREPARE quorum reached seq=14 (3 votes)
+node2  | [crypto] Generated keypair for node2
+node2  | [entrypoint] Generated keys for node2
+node2  | [entrypoint] Starting node node2 mode=B
+node2  | 09:43:33 [node2] INFO Node node2 listening on :5002  mode=B
+node2  | 09:43:40 [node2] WARNING Leader heartbeat timeout — starting election.
+node2  | 09:43:40 [node2] INFO [ELECTION] node2 starting Bully election.
+node2  | 09:43:40 [node2] INFO [ELECTION] Received OK from node4 — stepping down.
+node2  | 09:43:40 [node2] INFO [ELECTION] New coordinator: node5
+node2  | 09:43:40 [node2] INFO [ELECTION] Received OK from node3 — stepping down.
+node2  | 09:43:40 [node2] INFO [ELECTION] Received OK from node5 — stepping down.
+node2  | 09:45:14 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=1 from node5
+node2  | 09:45:14 [node2] INFO [PBFT] Sent PREPARE  seq=1
+node2  | 09:45:14 [node2] INFO [PBFT] PREPARE quorum reached seq=1 (3 votes)
+node2  | 09:45:14 [node2] INFO [PBFT] PREPARE quorum reached seq=1 (4 votes)
+node2  | 09:45:14 [node2] INFO [PBFT] PREPARE quorum reached seq=1 (5 votes)
+node2  | 09:45:14 [node2] INFO [PBFT] PREPARE quorum reached seq=1 (6 votes)
+node2  | 09:45:14 [node2] INFO [LEDGER] Committed tx: TX-0001-1780825514380  (total=1)
+node2  | 09:45:14 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=1  tx=TX-0001-1780825514380
+node2  | 09:45:14 [node2] INFO [PBFT] Sent COMMIT  seq=1
+node2  | 09:45:14 [node2] INFO [PBFT] Sent COMMIT  seq=1
+node2  | 09:45:14 [node2] INFO [PBFT] Sent COMMIT  seq=1
+node2  | 09:45:14 [node2] INFO [PBFT] Sent COMMIT  seq=1
+node2  | 09:45:15 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=2 from node5
+node2  | 09:45:15 [node2] INFO [PBFT] PREPARE quorum reached seq=2 (3 votes)
+node2  | 09:45:15 [node2] INFO [PBFT] PREPARE quorum reached seq=2 (4 votes)
+node2  | 09:45:15 [node2] INFO [PBFT] PREPARE quorum reached seq=2 (5 votes)
+node2  | 09:45:15 [node2] INFO [LEDGER] Committed tx: TX-0002-1780825515388  (total=2)
+node2  | 09:45:15 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=2  tx=TX-0002-1780825515388
+node2  | 09:45:15 [node2] INFO [PBFT] Sent PREPARE  seq=2
+node2  | 09:45:15 [node2] INFO [PBFT] Sent COMMIT  seq=2
+node2  | 09:45:15 [node2] INFO [PBFT] Sent COMMIT  seq=2
+node2  | 09:45:15 [node2] INFO [PBFT] Sent COMMIT  seq=2
+node2  | 09:45:16 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=3 from node5
+node2  | 09:45:16 [node2] INFO [PBFT] PREPARE quorum reached seq=3 (3 votes)
+node2  | 09:45:16 [node2] INFO [PBFT] PREPARE quorum reached seq=3 (4 votes)
+node2  | 09:45:16 [node2] INFO [PBFT] PREPARE quorum reached seq=3 (5 votes)
+node2  | 09:45:16 [node2] INFO [PBFT] Sent PREPARE  seq=3
+node2  | 09:45:16 [node2] INFO [PBFT] PREPARE quorum reached seq=3 (6 votes)
+node2  | 09:45:16 [node2] INFO [PBFT] Sent COMMIT  seq=3
+node2  | 09:45:16 [node2] INFO [LEDGER] Committed tx: TX-0003-1780825516391  (total=3)
+node2  | 09:45:16 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=3  tx=TX-0003-1780825516391
+node2  | 09:45:16 [node2] INFO [PBFT] Sent COMMIT  seq=3
+node2  | 09:45:16 [node2] INFO [PBFT] Sent COMMIT  seq=3
+node2  | 09:45:16 [node2] INFO [PBFT] Sent COMMIT  seq=3
+node2  | 09:45:17 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=4 from node5
+node2  | 09:45:17 [node2] INFO [PBFT] Sent PREPARE  seq=4
+node2  | 09:45:17 [node2] INFO [PBFT] PREPARE quorum reached seq=4 (3 votes)
+node2  | 09:45:17 [node2] INFO [PBFT] PREPARE quorum reached seq=4 (4 votes)
+node2  | 09:45:17 [node2] INFO [PBFT] PREPARE quorum reached seq=4 (5 votes)
+node2  | 09:45:17 [node2] INFO [PBFT] PREPARE quorum reached seq=4 (6 votes)
+node2  | 09:45:17 [node2] INFO [LEDGER] Committed tx: TX-0004-1780825517391  (total=4)
+node2  | 09:45:17 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=4  tx=TX-0004-1780825517391
+node2  | 09:45:17 [node2] INFO [PBFT] Sent COMMIT  seq=4
+node2  | 09:45:17 [node2] INFO [PBFT] Sent COMMIT  seq=4
+node2  | 09:45:17 [node2] INFO [PBFT] Sent COMMIT  seq=4
+node2  | 09:45:17 [node2] INFO [PBFT] Sent COMMIT  seq=4
+node2  | 09:45:18 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=5 from node5
+node2  | 09:45:18 [node2] INFO [PBFT] PREPARE quorum reached seq=5 (3 votes)
+node2  | 09:45:18 [node2] INFO [PBFT] Sent PREPARE  seq=5
+node2  | 09:45:18 [node2] INFO [PBFT] Sent COMMIT  seq=5
+node2  | 09:45:18 [node2] INFO [PBFT] PREPARE quorum reached seq=5 (4 votes)
+node2  | 09:45:18 [node2] INFO [PBFT] PREPARE quorum reached seq=5 (5 votes)
+node2  | 09:45:18 [node2] INFO [PBFT] PREPARE quorum reached seq=5 (6 votes)
+node2  | 09:45:18 [node2] INFO [LEDGER] Committed tx: TX-0005-1780825518395  (total=5)
+node2  | 09:45:18 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=5  tx=TX-0005-1780825518395
+node2  | 09:45:18 [node2] INFO [PBFT] Sent COMMIT  seq=5
+node2  | 09:45:18 [node2] INFO [PBFT] Sent COMMIT  seq=5
+node2  | 09:45:18 [node2] INFO [PBFT] Sent COMMIT  seq=5
+node2  | 09:45:19 [node2] INFO [CLIENT] Received transaction: TX-0006-1780825519398
+node2  | 09:45:19 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=6 from node5
+node2  | 09:45:19 [node2] INFO [PBFT] Sent PREPARE  seq=6
+node2  | 09:45:19 [node2] INFO [PBFT] PREPARE quorum reached seq=6 (3 votes)
+node2  | 09:45:19 [node2] INFO [PBFT] PREPARE quorum reached seq=6 (4 votes)
+node2  | 09:45:19 [node2] INFO [LEDGER] Committed tx: TX-0006-1780825519398  (total=6)
+node2  | 09:45:19 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=6  tx=TX-0006-1780825519398
+node2  | 09:45:19 [node2] INFO [PBFT] Sent COMMIT  seq=6
+node2  | 09:45:19 [node2] INFO [PBFT] Sent COMMIT  seq=6
+node2  | 09:45:20 [node2] INFO [CLIENT] Received transaction: TX-0007-1780825520400
+node2  | 09:45:20 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=7 from node5
+node2  | 09:45:20 [node2] INFO [PBFT] Sent PREPARE  seq=7
+node2  | 09:45:20 [node2] INFO [PBFT] PREPARE quorum reached seq=7 (3 votes)
+node2  | 09:45:20 [node2] INFO [PBFT] PREPARE quorum reached seq=7 (4 votes)
+node2  | 09:45:20 [node2] INFO [PBFT] PREPARE quorum reached seq=7 (5 votes)
+node2  | 09:45:20 [node2] INFO [PBFT] PREPARE quorum reached seq=7 (6 votes)
+node2  | 09:45:20 [node2] INFO [LEDGER] Committed tx: TX-0007-1780825520400  (total=7)
+node2  | 09:45:20 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=7  tx=TX-0007-1780825520400
+node2  | 09:45:20 [node2] INFO [PBFT] Sent COMMIT  seq=7
+node2  | 09:45:20 [node2] INFO [PBFT] Sent COMMIT  seq=7
+node2  | 09:45:20 [node2] INFO [PBFT] Sent COMMIT  seq=7
+node2  | 09:45:20 [node2] INFO [PBFT] Sent COMMIT  seq=7
+node2  | 09:45:21 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=8 from node5
+node2  | 09:45:21 [node2] INFO [PBFT] Sent PREPARE  seq=8
+node2  | 09:45:21 [node2] INFO [PBFT] PREPARE quorum reached seq=8 (3 votes)
+node2  | 09:45:21 [node2] INFO [PBFT] PREPARE quorum reached seq=8 (4 votes)
+node2  | 09:45:21 [node2] INFO [PBFT] PREPARE quorum reached seq=8 (5 votes)
+node2  | 09:45:21 [node2] INFO [PBFT] PREPARE quorum reached seq=8 (6 votes)
+node2  | 09:45:21 [node2] INFO [LEDGER] Committed tx: TX-0008-1780825521403  (total=8)
+node2  | 09:45:21 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=8  tx=TX-0008-1780825521403
+node2  | 09:45:21 [node2] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=8 — IGNORED
+node2  | 09:45:21 [node2] INFO [PBFT] Sent COMMIT  seq=8
+node2  | 09:45:21 [node2] INFO [PBFT] Sent COMMIT  seq=8
+node2  | 09:45:21 [node2] INFO [PBFT] Sent COMMIT  seq=8
+node2  | 09:45:21 [node2] INFO [PBFT] Sent COMMIT  seq=8
+node2  | 09:45:22 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=9 from node5
+node2  | 09:45:22 [node2] INFO [PBFT] PREPARE quorum reached seq=9 (3 votes)
+node2  | 09:45:22 [node2] INFO [PBFT] PREPARE quorum reached seq=9 (4 votes)
+node2  | 09:45:22 [node2] INFO [PBFT] PREPARE quorum reached seq=9 (5 votes)
+node2  | 09:45:22 [node2] INFO [PBFT] Sent PREPARE  seq=9
+node2  | 09:45:22 [node2] INFO [PBFT] PREPARE quorum reached seq=9 (6 votes)
+node2  | 09:45:22 [node2] INFO [LEDGER] Committed tx: TX-0009-1780825522406  (total=9)
+node2  | 09:45:22 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=9  tx=TX-0009-1780825522406
+node2  | 09:45:22 [node2] INFO [PBFT] Sent COMMIT  seq=9
+node2  | 09:45:22 [node2] INFO [PBFT] Sent COMMIT  seq=9
+node2  | 09:45:22 [node2] INFO [PBFT] Sent COMMIT  seq=9
+node2  | 09:45:22 [node2] INFO [PBFT] Sent COMMIT  seq=9
+node2  | 09:45:23 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=10 from node5
+node2  | 09:45:23 [node2] INFO [PBFT] Sent PREPARE  seq=10
+node2  | 09:45:23 [node2] INFO [PBFT] PREPARE quorum reached seq=10 (3 votes)
+node2  | 09:45:23 [node2] INFO [PBFT] PREPARE quorum reached seq=10 (4 votes)
+node2  | 09:45:23 [node2] INFO [PBFT] PREPARE quorum reached seq=10 (5 votes)
+node2  | 09:45:23 [node2] INFO [PBFT] PREPARE quorum reached seq=10 (6 votes)
+node2  | 09:45:23 [node2] INFO [LEDGER] Committed tx: TX-0010-1780825523409  (total=10)
+node2  | 09:45:23 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=10  tx=TX-0010-1780825523409
+node2  | 09:45:23 [node2] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=10 — IGNORED
+node2  | 09:45:23 [node2] INFO [PBFT] Sent COMMIT  seq=10
+node2  | 09:45:23 [node2] INFO [PBFT] Sent COMMIT  seq=10
+node2  | 09:45:23 [node2] INFO [PBFT] Sent COMMIT  seq=10
+node2  | 09:45:23 [node2] INFO [PBFT] Sent COMMIT  seq=10
+node2  | 09:45:24 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=11 from node5
+node2  | 09:45:24 [node2] INFO [PBFT] PREPARE quorum reached seq=11 (3 votes)
+node2  | 09:45:24 [node2] INFO [PBFT] PREPARE quorum reached seq=11 (4 votes)
+node2  | 09:45:24 [node2] INFO [PBFT] PREPARE quorum reached seq=11 (5 votes)
+node2  | 09:45:24 [node2] INFO [PBFT] PREPARE quorum reached seq=11 (6 votes)
+node2  | 09:45:24 [node2] INFO [PBFT] Sent PREPARE  seq=11
+node2  | 09:45:24 [node2] INFO [LEDGER] Committed tx: TX-0011-1780825524412  (total=11)
+node2  | 09:45:24 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=11  tx=TX-0011-1780825524412
+node2  | 09:45:24 [node2] INFO [PBFT] Sent COMMIT  seq=11
+node2  | 09:45:24 [node2] INFO [PBFT] Sent COMMIT  seq=11
+node2  | 09:45:24 [node2] INFO [PBFT] Sent COMMIT  seq=11
+node2  | 09:45:24 [node2] INFO [PBFT] Sent COMMIT  seq=11
+node2  | 09:45:25 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=12 from node5
+node2  | 09:45:25 [node2] INFO [PBFT] PREPARE quorum reached seq=12 (3 votes)
+node2  | 09:45:25 [node2] INFO [PBFT] PREPARE quorum reached seq=12 (4 votes)
+node2  | 09:45:25 [node2] INFO [PBFT] Sent PREPARE  seq=12
+node2  | 09:45:25 [node2] INFO [PBFT] PREPARE quorum reached seq=12 (5 votes)
+node2  | 09:45:25 [node2] INFO [PBFT] Sent COMMIT  seq=12
+node2  | 09:45:25 [node2] INFO [PBFT] PREPARE quorum reached seq=12 (6 votes)
+node2  | 09:45:25 [node2] INFO [PBFT] Sent COMMIT  seq=12
+node2  | 09:45:25 [node2] INFO [LEDGER] Committed tx: TX-0012-1780825525415  (total=12)
+node2  | 09:45:25 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=12  tx=TX-0012-1780825525415
+node2  | 09:45:25 [node2] INFO [PBFT] Sent COMMIT  seq=12
+node2  | 09:45:25 [node2] INFO [PBFT] Sent COMMIT  seq=12
+node2  | 09:45:26 [node2] INFO [CLIENT] Received transaction: TX-0013-1780825526418
+node2  | 09:45:26 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=13 from node5
+node2  | 09:45:26 [node2] INFO [PBFT] PREPARE quorum reached seq=13 (3 votes)
+node2  | 09:45:26 [node2] INFO [PBFT] PREPARE quorum reached seq=13 (4 votes)
+node2  | 09:45:26 [node2] INFO [PBFT] Sent PREPARE  seq=13
+node2  | 09:45:26 [node2] INFO [PBFT] PREPARE quorum reached seq=13 (5 votes)
+node2  | 09:45:26 [node2] INFO [PBFT] PREPARE quorum reached seq=13 (6 votes)
+node2  | 09:45:26 [node2] INFO [LEDGER] Committed tx: TX-0013-1780825526418  (total=13)
+node2  | 09:45:26 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=13  tx=TX-0013-1780825526418
+node2  | 09:45:26 [node2] INFO [PBFT] Sent COMMIT  seq=13
+node2  | 09:45:26 [node2] INFO [PBFT] Sent COMMIT  seq=13
+node2  | 09:45:26 [node2] INFO [PBFT] Sent COMMIT  seq=13
+node2  | 09:45:26 [node2] INFO [PBFT] Sent COMMIT  seq=13
+node2  | 09:45:27 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=14 from node5
+node2  | 09:45:27 [node2] INFO [PBFT] Sent PREPARE  seq=14
+node2  | 09:45:27 [node2] INFO [PBFT] PREPARE quorum reached seq=14 (3 votes)
+node2  | 09:45:27 [node2] INFO [PBFT] PREPARE quorum reached seq=14 (4 votes)
+node2  | 09:45:27 [node2] INFO [PBFT] PREPARE quorum reached seq=14 (5 votes)
+node2  | 09:45:27 [node2] INFO [PBFT] PREPARE quorum reached seq=14 (6 votes)
+node2  | 09:45:27 [node2] INFO [LEDGER] Committed tx: TX-0014-1780825527420  (total=14)
+node2  | 09:45:27 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=14  tx=TX-0014-1780825527420
+node2  | 09:45:27 [node2] INFO [PBFT] Sent COMMIT  seq=14
+node2  | 09:45:27 [node2] INFO [PBFT] Sent COMMIT  seq=14
+node2  | 09:45:27 [node2] INFO [PBFT] Sent COMMIT  seq=14
+node2  | 09:45:27 [node2] INFO [PBFT] Sent COMMIT  seq=14
+node2  | 09:45:28 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=15 from node5
+node2  | 09:45:28 [node2] INFO [PBFT] PREPARE quorum reached seq=15 (3 votes)
+node2  | 09:45:28 [node2] INFO [PBFT] Sent PREPARE  seq=15
+node2  | 09:45:28 [node2] INFO [PBFT] Sent COMMIT  seq=15
+node2  | 09:45:28 [node2] INFO [PBFT] PREPARE quorum reached seq=15 (4 votes)
+node2  | 09:45:28 [node2] INFO [PBFT] Sent COMMIT  seq=15
+node2  | 09:45:28 [node2] INFO [LEDGER] Committed tx: TX-0015-1780825528423  (total=15)
+node2  | 09:45:28 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=15  tx=TX-0015-1780825528423
+node2  | 09:45:29 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=16 from node5
+node2  | 09:45:29 [node2] INFO [PBFT] Sent PREPARE  seq=16
+node2  | 09:45:29 [node2] INFO [PBFT] PREPARE quorum reached seq=16 (3 votes)
+node2  | 09:45:29 [node2] INFO [PBFT] PREPARE quorum reached seq=16 (4 votes)
+node2  | 09:45:29 [node2] INFO [LEDGER] Committed tx: TX-0016-1780825529426  (total=16)
+node2  | 09:45:29 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=16  tx=TX-0016-1780825529426
+node2  | 09:45:29 [node2] INFO [PBFT] Sent COMMIT  seq=16
+node2  | 09:45:29 [node2] INFO [PBFT] Sent COMMIT  seq=16
+node2  | 09:45:30 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=17 from node5
+node2  | 09:45:30 [node2] INFO [PBFT] PREPARE quorum reached seq=17 (3 votes)
+node2  | 09:45:30 [node2] INFO [PBFT] PREPARE quorum reached seq=17 (4 votes)
+node2  | 09:45:30 [node2] INFO [PBFT] PREPARE quorum reached seq=17 (5 votes)
+node2  | 09:45:30 [node2] INFO [LEDGER] Committed tx: TX-0017-1780825530428  (total=17)
+node2  | 09:45:30 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=17  tx=TX-0017-1780825530428
+node2  | 09:45:30 [node2] INFO [PBFT] Sent PREPARE  seq=17
+node2  | 09:45:30 [node2] INFO [PBFT] Sent COMMIT  seq=17
+node2  | 09:45:30 [node2] INFO [PBFT] Sent COMMIT  seq=17
+node2  | 09:45:30 [node2] INFO [PBFT] Sent COMMIT  seq=17
+node2  | 09:45:31 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=18 from node5
+node2  | 09:45:31 [node2] INFO [PBFT] PREPARE quorum reached seq=18 (3 votes)
+node2  | 09:45:31 [node2] INFO [PBFT] PREPARE quorum reached seq=18 (4 votes)
+node2  | 09:45:31 [node2] INFO [PBFT] Sent PREPARE  seq=18
+node2  | 09:45:31 [node2] INFO [PBFT] PREPARE quorum reached seq=18 (5 votes)
+node2  | 09:45:31 [node2] INFO [PBFT] Sent COMMIT  seq=18
+node2  | 09:45:31 [node2] INFO [PBFT] Sent COMMIT  seq=18
+node2  | 09:45:31 [node2] INFO [PBFT] Sent COMMIT  seq=18
+node2  | 09:45:31 [node2] INFO [LEDGER] Committed tx: TX-0018-1780825531430  (total=18)
+node2  | 09:45:31 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=18  tx=TX-0018-1780825531430
+node2  | 09:45:32 [node2] INFO [CLIENT] Received transaction: TX-0019-1780825532433
+node2  | 09:45:32 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=19 from node5
+node2  | 09:45:32 [node2] INFO [PBFT] PREPARE quorum reached seq=19 (3 votes)
+node2  | 09:45:32 [node2] INFO [PBFT] PREPARE quorum reached seq=19 (4 votes)
+node2  | 09:45:32 [node2] INFO [PBFT] PREPARE quorum reached seq=19 (5 votes)
+node2  | 09:45:32 [node2] INFO [PBFT] Sent PREPARE  seq=19
+node2  | 09:45:32 [node2] INFO [PBFT] PREPARE quorum reached seq=19 (6 votes)
+node2  | 09:45:32 [node2] INFO [LEDGER] Committed tx: TX-0019-1780825532433  (total=19)
+node2  | 09:45:32 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=19  tx=TX-0019-1780825532433
+node2  | 09:45:32 [node2] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=19 — IGNORED
+node2  | 09:45:32 [node2] INFO [PBFT] Sent COMMIT  seq=19
+node2  | 09:45:32 [node2] INFO [PBFT] Sent COMMIT  seq=19
+node2  | 09:45:32 [node2] INFO [PBFT] Sent COMMIT  seq=19
+node2  | 09:45:32 [node2] INFO [PBFT] Sent COMMIT  seq=19
+node2  | 09:45:33 [node2] INFO [PBFT] Accepted PRE-PREPARE seq=20 from node5
+node2  | 09:45:33 [node2] INFO [PBFT] PREPARE quorum reached seq=20 (3 votes)
+node2  | 09:45:33 [node2] INFO [PBFT] PREPARE quorum reached seq=20 (4 votes)
+node2  | 09:45:33 [node2] INFO [PBFT] Sent PREPARE  seq=20
+node2  | 09:45:33 [node2] INFO [PBFT] PREPARE quorum reached seq=20 (5 votes)
+node2  | 09:45:33 [node2] INFO [PBFT] PREPARE quorum reached seq=20 (6 votes)
+node2  | 09:45:33 [node2] INFO [LEDGER] Committed tx: TX-0020-1780825533436  (total=20)
+node2  | 09:45:33 [node2] INFO [PBFT] ✓ CONSENSUS REACHED  seq=20  tx=TX-0020-1780825533436
+node2  | 09:45:33 [node2] INFO [PBFT] Sent COMMIT  seq=20
+node2  | 09:45:33 [node2] INFO [PBFT] Sent COMMIT  seq=20
+node2  | 09:45:33 [node2] INFO [PBFT] Sent COMMIT  seq=20
+node2  | 09:45:33 [node2] INFO [PBFT] Sent COMMIT  seq=20
+node4  | 09:45:21 [node4] INFO [PBFT] Sent COMMIT  seq=8
+node4  | 09:45:21 [node4] INFO [PBFT] PREPARE quorum reached seq=8 (4 votes)
+node4  | 09:45:21 [node4] INFO [PBFT] PREPARE quorum reached seq=8 (5 votes)
+node4  | 09:45:21 [node4] INFO [PBFT] PREPARE quorum reached seq=8 (6 votes)
+node4  | 09:45:21 [node4] INFO [LEDGER] Committed tx: TX-0008-1780825521403  (total=8)
+node4  | 09:45:21 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=8  tx=TX-0008-1780825521403
+node4  | 09:45:21 [node4] INFO [PBFT] Sent COMMIT  seq=8
+node4  | 09:45:21 [node4] INFO [PBFT] Sent COMMIT  seq=8
+node4  | 09:45:21 [node4] INFO [PBFT] Sent COMMIT  seq=8
+node4  | 09:45:22 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=9 from node5
+node4  | 09:45:22 [node4] INFO [PBFT] Sent PREPARE  seq=9
+node4  | 09:45:22 [node4] INFO [PBFT] PREPARE quorum reached seq=9 (3 votes)
+node4  | 09:45:22 [node4] INFO [PBFT] Sent COMMIT  seq=9
+node4  | 09:45:22 [node4] INFO [LEDGER] Committed tx: TX-0009-1780825522406  (total=9)
+node4  | 09:45:22 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=9  tx=TX-0009-1780825522406
+node4  | 09:45:23 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=10 from node5
+node4  | 09:45:23 [node4] INFO [PBFT] PREPARE quorum reached seq=10 (3 votes)
+node4  | 09:45:23 [node4] INFO [PBFT] PREPARE quorum reached seq=10 (4 votes)
+node4  | 09:45:23 [node4] INFO [PBFT] Sent PREPARE  seq=10
+node4  | 09:45:23 [node4] INFO [PBFT] Sent COMMIT  seq=10
+node4  | 09:45:23 [node4] INFO [PBFT] Sent COMMIT  seq=10
+node4  | 09:45:23 [node4] INFO [PBFT] PREPARE quorum reached seq=10 (5 votes)
+node4  | 09:45:23 [node4] INFO [PBFT] PREPARE quorum reached seq=10 (6 votes)
+node4  | 09:45:23 [node4] INFO [LEDGER] Committed tx: TX-0010-1780825523409  (total=10)
+node4  | 09:45:23 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=10  tx=TX-0010-1780825523409
+node4  | 09:45:23 [node4] INFO [PBFT] Sent COMMIT  seq=10
+node4  | 09:45:23 [node4] INFO [PBFT] Sent COMMIT  seq=10
+node4  | 09:45:24 [node4] INFO [CLIENT] Received transaction: TX-0011-1780825524412
+node4  | 09:45:24 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=11 from node5
+node4  | 09:45:24 [node4] INFO [PBFT] Sent PREPARE  seq=11
+node4  | 09:45:24 [node4] INFO [PBFT] PREPARE quorum reached seq=11 (3 votes)
+node4  | 09:45:24 [node4] INFO [PBFT] PREPARE quorum reached seq=11 (4 votes)
+node4  | 09:45:24 [node4] INFO [PBFT] PREPARE quorum reached seq=11 (5 votes)
+node4  | 09:45:24 [node4] INFO [LEDGER] Committed tx: TX-0011-1780825524412  (total=11)
+node4  | 09:45:24 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=11  tx=TX-0011-1780825524412
+node4  | 09:45:24 [node4] INFO [PBFT] Sent COMMIT  seq=11
+node4  | 09:45:24 [node4] INFO [PBFT] Sent COMMIT  seq=11
+node4  | 09:45:24 [node4] INFO [PBFT] Sent COMMIT  seq=11
+node4  | 09:45:25 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=12 from node5
+node4  | 09:45:25 [node4] INFO [PBFT] Sent PREPARE  seq=12
+node4  | 09:45:25 [node4] INFO [PBFT] PREPARE quorum reached seq=12 (3 votes)
+node4  | 09:45:25 [node4] INFO [PBFT] PREPARE quorum reached seq=12 (4 votes)
+node4  | 09:45:25 [node4] INFO [PBFT] PREPARE quorum reached seq=12 (5 votes)
+node4  | 09:45:25 [node4] INFO [PBFT] PREPARE quorum reached seq=12 (6 votes)
+node4  | 09:45:25 [node4] INFO [LEDGER] Committed tx: TX-0012-1780825525415  (total=12)
+node4  | 09:45:25 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=12  tx=TX-0012-1780825525415
+node4  | 09:45:25 [node4] INFO [PBFT] Sent COMMIT  seq=12
+node4  | 09:45:25 [node4] INFO [PBFT] Sent COMMIT  seq=12
+node4  | 09:45:25 [node4] INFO [PBFT] Sent COMMIT  seq=12
+node4  | 09:45:25 [node4] INFO [PBFT] Sent COMMIT  seq=12
+node4  | 09:45:26 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=13 from node5
+node4  | 09:45:26 [node4] INFO [PBFT] Sent PREPARE  seq=13
+node4  | 09:45:26 [node4] INFO [PBFT] PREPARE quorum reached seq=13 (3 votes)
+node4  | 09:45:26 [node4] INFO [PBFT] PREPARE quorum reached seq=13 (4 votes)
+node4  | 09:45:26 [node4] INFO [PBFT] PREPARE quorum reached seq=13 (5 votes)
+node4  | 09:45:26 [node4] INFO [PBFT] PREPARE quorum reached seq=13 (6 votes)
+node4  | 09:45:26 [node4] INFO [LEDGER] Committed tx: TX-0013-1780825526418  (total=13)
+node4  | 09:45:26 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=13  tx=TX-0013-1780825526418
+node4  | 09:45:26 [node4] INFO [PBFT] Sent COMMIT  seq=13
+node4  | 09:45:26 [node4] INFO [PBFT] Sent COMMIT  seq=13
+node4  | 09:45:26 [node4] INFO [PBFT] Sent COMMIT  seq=13
+node4  | 09:45:26 [node4] INFO [PBFT] Sent COMMIT  seq=13
+node4  | 09:45:27 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=14 from node5
+node4  | 09:45:27 [node4] INFO [PBFT] Sent PREPARE  seq=14
+node4  | 09:45:27 [node4] INFO [PBFT] PREPARE quorum reached seq=14 (3 votes)
+node4  | 09:45:27 [node4] INFO [PBFT] PREPARE quorum reached seq=14 (4 votes)
+node4  | 09:45:27 [node4] INFO [PBFT] PREPARE quorum reached seq=14 (5 votes)
+node4  | 09:45:27 [node4] INFO [PBFT] Sent COMMIT  seq=14
+node4  | 09:45:27 [node4] INFO [PBFT] Sent COMMIT  seq=14
+node4  | 09:45:27 [node4] INFO [PBFT] PREPARE quorum reached seq=14 (6 votes)
+node4  | 09:45:27 [node4] INFO [PBFT] Sent COMMIT  seq=14
+node4  | 09:45:27 [node4] INFO [LEDGER] Committed tx: TX-0014-1780825527420  (total=14)
+node4  | 09:45:27 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=14  tx=TX-0014-1780825527420
+node4  | 09:45:27 [node4] INFO [PBFT] Sent COMMIT  seq=14
+node4  | 09:45:28 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=15 from node5
+node4  | 09:45:28 [node4] INFO [PBFT] PREPARE quorum reached seq=15 (3 votes)
+node4  | 09:45:28 [node4] INFO [PBFT] PREPARE quorum reached seq=15 (4 votes)
+node4  | 09:45:28 [node4] INFO [PBFT] Sent PREPARE  seq=15
+node4  | 09:45:28 [node4] INFO [PBFT] PREPARE quorum reached seq=15 (5 votes)
+node4  | 09:45:28 [node4] INFO [LEDGER] Committed tx: TX-0015-1780825528423  (total=15)
+node4  | 09:45:28 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=15  tx=TX-0015-1780825528423
+node4  | 09:45:28 [node4] INFO [PBFT] Sent COMMIT  seq=15
+node4  | 09:45:28 [node4] INFO [PBFT] Sent COMMIT  seq=15
+node4  | 09:45:28 [node4] INFO [PBFT] Sent COMMIT  seq=15
+node4  | 09:45:29 [node4] INFO [CLIENT] Received transaction: TX-0016-1780825529426
+node4  | 09:45:29 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=16 from node5
+node4  | 09:45:29 [node4] INFO [PBFT] PREPARE quorum reached seq=16 (3 votes)
+node4  | 09:45:29 [node4] INFO [PBFT] Sent PREPARE  seq=16
+node4  | 09:45:29 [node4] INFO [PBFT] Sent COMMIT  seq=16
+node4  | 09:45:29 [node4] INFO [PBFT] PREPARE quorum reached seq=16 (4 votes)
+node4  | 09:45:29 [node4] INFO [LEDGER] Committed tx: TX-0016-1780825529426  (total=16)
+node4  | 09:45:29 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=16  tx=TX-0016-1780825529426
+node4  | 09:45:29 [node4] INFO [PBFT] Sent COMMIT  seq=16
+node4  | 09:45:29 [node4] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=16 — IGNORED
+node4  | 09:45:30 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=17 from node5
+node4  | 09:45:30 [node4] INFO [PBFT] Sent PREPARE  seq=17
+node4  | 09:45:30 [node4] INFO [PBFT] PREPARE quorum reached seq=17 (3 votes)
+node4  | 09:45:30 [node4] INFO [PBFT] Sent COMMIT  seq=17
+node4  | 09:45:30 [node4] INFO [LEDGER] Committed tx: TX-0017-1780825530428  (total=17)
+node4  | 09:45:30 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=17  tx=TX-0017-1780825530428
+node4  | 09:45:31 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=18 from node5
+node4  | 09:45:31 [node4] INFO [PBFT] Sent PREPARE  seq=18
+node4  | 09:45:31 [node4] INFO [PBFT] PREPARE quorum reached seq=18 (3 votes)
+node4  | 09:45:31 [node4] INFO [PBFT] PREPARE quorum reached seq=18 (4 votes)
+node4  | 09:45:31 [node4] INFO [LEDGER] Committed tx: TX-0018-1780825531430  (total=18)
+node4  | 09:45:31 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=18  tx=TX-0018-1780825531430
+node4  | 09:45:31 [node4] INFO [PBFT] Sent COMMIT  seq=18
+node4  | 09:45:31 [node4] INFO [PBFT] Sent COMMIT  seq=18
+node4  | 09:45:31 [node4] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=18 — IGNORED
+node4  | 09:45:32 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=19 from node5
+node4  | 09:45:32 [node4] INFO [PBFT] PREPARE quorum reached seq=19 (3 votes)
+node4  | 09:45:32 [node4] INFO [PBFT] Sent PREPARE  seq=19
+node4  | 09:45:32 [node4] INFO [PBFT] Sent COMMIT  seq=19
+node4  | 09:45:32 [node4] INFO [PBFT] PREPARE quorum reached seq=19 (4 votes)
+node4  | 09:45:32 [node4] INFO [PBFT] Sent COMMIT  seq=19
+node4  | 09:45:32 [node4] INFO [LEDGER] Committed tx: TX-0019-1780825532433  (total=19)
+node4  | 09:45:32 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=19  tx=TX-0019-1780825532433
+node4  | 09:45:33 [node4] INFO [CLIENT] Received transaction: TX-0020-1780825533436
+node4  | 09:45:33 [node4] INFO [PBFT] Accepted PRE-PREPARE seq=20 from node5
+node4  | 09:45:33 [node4] INFO [PBFT] PREPARE quorum reached seq=20 (3 votes)
+node4  | 09:45:33 [node4] INFO [PBFT] PREPARE quorum reached seq=20 (4 votes)
+node4  | 09:45:33 [node4] INFO [PBFT] PREPARE quorum reached seq=20 (5 votes)
+node4  | 09:45:33 [node4] INFO [PBFT] Sent PREPARE  seq=20
+node4  | 09:45:33 [node4] INFO [LEDGER] Committed tx: TX-0020-1780825533436  (total=20)
+node4  | 09:45:33 [node4] INFO [PBFT] ✓ CONSENSUS REACHED  seq=20  tx=TX-0020-1780825533436
+node4  | 09:45:33 [node4] INFO [PBFT] Sent COMMIT  seq=20
+node4  | 09:45:33 [node4] INFO [PBFT] Sent COMMIT  seq=20
+node4  | 09:45:33 [node4] INFO [PBFT] Sent COMMIT  seq=20
+node1  | 09:45:20 [node1] INFO [PBFT] PREPARE quorum reached seq=7 (3 votes)
+node1  | 09:45:20 [node1] INFO [PBFT] PREPARE quorum reached seq=7 (4 votes)
+node1  | 09:45:20 [node1] INFO [PBFT] PREPARE quorum reached seq=7 (5 votes)
+node1  | 09:45:20 [node1] INFO [PBFT] Sent PREPARE  seq=7
+node1  | 09:45:20 [node1] INFO [PBFT] PREPARE quorum reached seq=7 (6 votes)
+node1  | 09:45:20 [node1] INFO [PBFT] Sent COMMIT  seq=7
+node1  | 09:45:20 [node1] INFO [LEDGER] Committed tx: TX-0007-1780825520400  (total=7)
+node1  | 09:45:20 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=7  tx=TX-0007-1780825520400
+node1  | 09:45:20 [node1] INFO [PBFT] Sent COMMIT  seq=7
+node1  | 09:45:20 [node1] INFO [PBFT] Sent COMMIT  seq=7
+node1  | 09:45:20 [node1] INFO [PBFT] Sent COMMIT  seq=7
+node1  | 09:45:21 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=8 from node5
+node1  | 09:45:21 [node1] INFO [PBFT] PREPARE quorum reached seq=8 (3 votes)
+node1  | 09:45:21 [node1] INFO [PBFT] PREPARE quorum reached seq=8 (4 votes)
+node1  | 09:45:21 [node1] INFO [PBFT] PREPARE quorum reached seq=8 (5 votes)
+node1  | 09:45:21 [node1] INFO [PBFT] PREPARE quorum reached seq=8 (6 votes)
+node5  | 09:45:27 [node5] INFO [PBFT] Sent PREPARE  seq=14
+node5  | 09:45:27 [node5] INFO [PBFT] Sent COMMIT  seq=14
+node5  | 09:45:27 [node5] INFO [PBFT] PREPARE quorum reached seq=14 (4 votes)
+node5  | 09:45:27 [node5] INFO [PBFT] Sent COMMIT  seq=14
+node5  | 09:45:27 [node5] INFO [LEDGER] Committed tx: TX-0014-1780825527420  (total=14)
+node5  | 09:45:27 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=14  tx=TX-0014-1780825527420
+node5  | 09:45:28 [node5] INFO [CLIENT] Received transaction: TX-0015-1780825528423
+node5  | 09:45:28 [node5] INFO [PBFT] PRE-PREPARE  seq=15  tx=TX-0015-1780825528423
+node5  | 09:45:28 [node5] INFO [PBFT] Sent PREPARE  seq=15
+node5  | 09:45:28 [node5] INFO [PBFT] PREPARE quorum reached seq=15 (3 votes)
+node5  | 09:45:28 [node5] INFO [PBFT] Sent COMMIT  seq=15
+node5  | 09:45:28 [node5] INFO [LEDGER] Committed tx: TX-0015-1780825528423  (total=15)
+node1  | 09:45:21 [node1] INFO [PBFT] Sent PREPARE  seq=8
+node1  | 09:45:21 [node1] INFO [LEDGER] Committed tx: TX-0008-1780825521403  (total=8)
+node1  | 09:45:21 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=8  tx=TX-0008-1780825521403
+node1  | 09:45:21 [node1] INFO [PBFT] Sent COMMIT  seq=8
+node1  | 09:45:21 [node1] INFO [PBFT] Sent COMMIT  seq=8
+node1  | 09:45:21 [node1] INFO [PBFT] Sent COMMIT  seq=8
+node5  | 09:45:28 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=15  tx=TX-0015-1780825528423
+node1  | 09:45:21 [node1] INFO [PBFT] Sent COMMIT  seq=8
+node1  | 09:45:22 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=9 from node5
+node1  | 09:45:22 [node1] INFO [PBFT] PREPARE quorum reached seq=9 (3 votes)
+node1  | 09:45:22 [node1] INFO [PBFT] PREPARE quorum reached seq=9 (4 votes)
+node1  | 09:45:22 [node1] INFO [PBFT] PREPARE quorum reached seq=9 (5 votes)
+node1  | 09:45:22 [node1] INFO [LEDGER] Committed tx: TX-0009-1780825522406  (total=9)
+node1  | 09:45:22 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=9  tx=TX-0009-1780825522406
+node1  | 09:45:22 [node1] INFO [PBFT] Sent PREPARE  seq=9
+node1  | 09:45:22 [node1] INFO [PBFT] Sent COMMIT  seq=9
+node1  | 09:45:22 [node1] INFO [PBFT] Sent COMMIT  seq=9
+node1  | 09:45:22 [node1] INFO [PBFT] Sent COMMIT  seq=9
+node1  | 09:45:23 [node1] INFO [CLIENT] Received transaction: TX-0010-1780825523409
+node1  | 09:45:23 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=10 from node5
+node1  | 09:45:23 [node1] INFO [PBFT] PREPARE quorum reached seq=10 (3 votes)
+node1  | 09:45:23 [node1] INFO [PBFT] PREPARE quorum reached seq=10 (4 votes)
+node1  | 09:45:23 [node1] INFO [PBFT] PREPARE quorum reached seq=10 (5 votes)
+node1  | 09:45:23 [node1] INFO [PBFT] PREPARE quorum reached seq=10 (6 votes)
+node1  | 09:45:23 [node1] INFO [PBFT] Sent PREPARE  seq=10
+node1  | 09:45:23 [node1] INFO [LEDGER] Committed tx: TX-0010-1780825523409  (total=10)
+node1  | 09:45:23 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=10  tx=TX-0010-1780825523409
+node1  | 09:45:23 [node1] INFO [PBFT] Sent COMMIT  seq=10
+node1  | 09:45:23 [node1] INFO [PBFT] Sent COMMIT  seq=10
+node1  | 09:45:23 [node1] INFO [PBFT] Sent COMMIT  seq=10
+node1  | 09:45:23 [node1] INFO [PBFT] Sent COMMIT  seq=10
+node1  | 09:45:24 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=11 from node5
+node1  | 09:45:24 [node1] INFO [PBFT] PREPARE quorum reached seq=11 (3 votes)
+node1  | 09:45:24 [node1] INFO [PBFT] PREPARE quorum reached seq=11 (4 votes)
+node1  | 09:45:24 [node1] INFO [PBFT] Sent PREPARE  seq=11
+node1  | 09:45:24 [node1] INFO [PBFT] PREPARE quorum reached seq=11 (5 votes)
+node1  | 09:45:24 [node1] INFO [PBFT] PREPARE quorum reached seq=11 (6 votes)
+node1  | 09:45:24 [node1] INFO [PBFT] Sent COMMIT  seq=11
+node1  | 09:45:24 [node1] INFO [PBFT] Sent COMMIT  seq=11
+node1  | 09:45:24 [node1] INFO [LEDGER] Committed tx: TX-0011-1780825524412  (total=11)
+node1  | 09:45:24 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=11  tx=TX-0011-1780825524412
+node1  | 09:45:24 [node1] INFO [PBFT] Sent COMMIT  seq=11
+node1  | 09:45:24 [node1] INFO [PBFT] Sent COMMIT  seq=11
+node1  | 09:45:25 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=12 from node5
+node1  | 09:45:25 [node1] INFO [PBFT] PREPARE quorum reached seq=12 (3 votes)
+node1  | 09:45:25 [node1] INFO [PBFT] PREPARE quorum reached seq=12 (4 votes)
+node1  | 09:45:25 [node1] INFO [PBFT] PREPARE quorum reached seq=12 (5 votes)
+node1  | 09:45:25 [node1] INFO [PBFT] PREPARE quorum reached seq=12 (6 votes)
+node1  | 09:45:25 [node1] INFO [LEDGER] Committed tx: TX-0012-1780825525415  (total=12)
+node1  | 09:45:25 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=12  tx=TX-0012-1780825525415
+node1  | 09:45:25 [node1] INFO [PBFT] Sent PREPARE  seq=12
+node1  | 09:45:25 [node1] INFO [PBFT] Sent COMMIT  seq=12
+node1  | 09:45:25 [node1] INFO [PBFT] Sent COMMIT  seq=12
+node1  | 09:45:25 [node1] INFO [PBFT] Sent COMMIT  seq=12
+node1  | 09:45:25 [node1] INFO [PBFT] Sent COMMIT  seq=12
+node1  | 09:45:26 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=13 from node5
+node1  | 09:45:26 [node1] INFO [PBFT] PREPARE quorum reached seq=13 (3 votes)
+node1  | 09:45:26 [node1] INFO [PBFT] PREPARE quorum reached seq=13 (4 votes)
+node1  | 09:45:26 [node1] INFO [PBFT] Sent PREPARE  seq=13
+node1  | 09:45:26 [node1] INFO [PBFT] PREPARE quorum reached seq=13 (5 votes)
+node1  | 09:45:26 [node1] INFO [PBFT] PREPARE quorum reached seq=13 (6 votes)
+node1  | 09:45:26 [node1] INFO [LEDGER] Committed tx: TX-0013-1780825526418  (total=13)
+node1  | 09:45:26 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=13  tx=TX-0013-1780825526418
+node1  | 09:45:26 [node1] INFO [PBFT] Sent COMMIT  seq=13
+node1  | 09:45:26 [node1] INFO [PBFT] Sent COMMIT  seq=13
+node1  | 09:45:26 [node1] INFO [PBFT] Sent COMMIT  seq=13
+node1  | 09:45:26 [node1] INFO [PBFT] Sent COMMIT  seq=13
+node1  | 09:45:27 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=14 from node5
+node1  | 09:45:27 [node1] INFO [PBFT] PREPARE quorum reached seq=14 (3 votes)
+node1  | 09:45:27 [node1] INFO [PBFT] PREPARE quorum reached seq=14 (4 votes)
+node1  | 09:45:27 [node1] INFO [PBFT] PREPARE quorum reached seq=14 (5 votes)
+node1  | 09:45:27 [node1] INFO [PBFT] PREPARE quorum reached seq=14 (6 votes)
+node1  | 09:45:27 [node1] INFO [PBFT] Sent PREPARE  seq=14
+node1  | 09:45:27 [node1] INFO [LEDGER] Committed tx: TX-0014-1780825527420  (total=14)
+node1  | 09:45:27 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=14  tx=TX-0014-1780825527420
+node1  | 09:45:27 [node1] INFO [PBFT] Sent COMMIT  seq=14
+node1  | 09:45:27 [node1] INFO [PBFT] Sent COMMIT  seq=14
+node1  | 09:45:27 [node1] INFO [PBFT] Sent COMMIT  seq=14
+node1  | 09:45:27 [node1] INFO [PBFT] Sent COMMIT  seq=14
+node1  | 09:45:28 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=15 from node5
+node1  | 09:45:28 [node1] INFO [PBFT] Sent PREPARE  seq=15
+node1  | 09:45:28 [node1] INFO [PBFT] PREPARE quorum reached seq=15 (3 votes)
+node1  | 09:45:28 [node1] INFO [PBFT] PREPARE quorum reached seq=15 (4 votes)
+node1  | 09:45:28 [node1] INFO [LEDGER] Committed tx: TX-0015-1780825528423  (total=15)
+node1  | 09:45:28 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=15  tx=TX-0015-1780825528423
+node1  | 09:45:28 [node1] INFO [PBFT] Sent COMMIT  seq=15
+node1  | 09:45:28 [node1] INFO [PBFT] Sent COMMIT  seq=15
+node1  | 09:45:29 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=16 from node5
+node1  | 09:45:29 [node1] INFO [PBFT] PREPARE quorum reached seq=16 (3 votes)
+node1  | 09:45:29 [node1] INFO [PBFT] PREPARE quorum reached seq=16 (4 votes)
+node1  | 09:45:29 [node1] INFO [PBFT] PREPARE quorum reached seq=16 (5 votes)
+node1  | 09:45:29 [node1] INFO [PBFT] PREPARE quorum reached seq=16 (6 votes)
+node1  | 09:45:29 [node1] INFO [LEDGER] Committed tx: TX-0016-1780825529426  (total=16)
+node1  | 09:45:29 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=16  tx=TX-0016-1780825529426
+node1  | 09:45:29 [node1] INFO [PBFT] Sent PREPARE  seq=16
+node1  | 09:45:29 [node1] INFO [PBFT] Sent COMMIT  seq=16
+node1  | 09:45:29 [node1] INFO [PBFT] Sent COMMIT  seq=16
+node1  | 09:45:29 [node1] INFO [PBFT] Sent COMMIT  seq=16
+node1  | 09:45:29 [node1] INFO [PBFT] Sent COMMIT  seq=16
+node1  | 09:45:30 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=17 from node5
+node1  | 09:45:30 [node1] INFO [PBFT] PREPARE quorum reached seq=17 (3 votes)
+node1  | 09:45:30 [node1] INFO [PBFT] PREPARE quorum reached seq=17 (4 votes)
+node1  | 09:45:30 [node1] INFO [PBFT] PREPARE quorum reached seq=17 (5 votes)
+node1  | 09:45:30 [node1] INFO [PBFT] PREPARE quorum reached seq=17 (6 votes)
+node1  | 09:45:30 [node1] INFO [LEDGER] Committed tx: TX-0017-1780825530428  (total=17)
+node1  | 09:45:30 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=17  tx=TX-0017-1780825530428
+node1  | 09:45:30 [node1] INFO [PBFT] Sent PREPARE  seq=17
+node1  | 09:45:30 [node1] INFO [PBFT] Sent COMMIT  seq=17
+node1  | 09:45:30 [node1] INFO [PBFT] Sent COMMIT  seq=17
+node1  | 09:45:30 [node1] INFO [PBFT] Sent COMMIT  seq=17
+node1  | 09:45:30 [node1] INFO [PBFT] Sent COMMIT  seq=17
+node1  | 09:45:31 [node1] INFO [CLIENT] Received transaction: TX-0018-1780825531430
+node1  | 09:45:31 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=18 from node5
+node1  | 09:45:31 [node1] INFO [PBFT] PREPARE quorum reached seq=18 (3 votes)
+node1  | 09:45:31 [node1] INFO [PBFT] PREPARE quorum reached seq=18 (4 votes)
+node1  | 09:45:31 [node1] INFO [PBFT] PREPARE quorum reached seq=18 (5 votes)
+node1  | 09:45:31 [node1] INFO [PBFT] PREPARE quorum reached seq=18 (6 votes)
+node1  | 09:45:31 [node1] INFO [LEDGER] Committed tx: TX-0018-1780825531430  (total=18)
+node1  | 09:45:31 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=18  tx=TX-0018-1780825531430
+node1  | 09:45:31 [node1] INFO [PBFT] Sent PREPARE  seq=18
+node1  | 09:45:31 [node1] INFO [PBFT] Sent COMMIT  seq=18
+node1  | 09:45:31 [node1] INFO [PBFT] Sent COMMIT  seq=18
+node1  | 09:45:31 [node1] INFO [PBFT] Sent COMMIT  seq=18
+node1  | 09:45:31 [node1] INFO [PBFT] Sent COMMIT  seq=18
+node1  | 09:45:32 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=19 from node5
+node1  | 09:45:32 [node1] INFO [PBFT] PREPARE quorum reached seq=19 (3 votes)
+node1  | 09:45:32 [node1] INFO [PBFT] PREPARE quorum reached seq=19 (4 votes)
+node1  | 09:45:32 [node1] INFO [PBFT] PREPARE quorum reached seq=19 (5 votes)
+node1  | 09:45:32 [node1] INFO [PBFT] PREPARE quorum reached seq=19 (6 votes)
+node1  | 09:45:32 [node1] INFO [PBFT] Sent PREPARE  seq=19
+node1  | 09:45:32 [node1] INFO [LEDGER] Committed tx: TX-0019-1780825532433  (total=19)
+node1  | 09:45:32 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=19  tx=TX-0019-1780825532433
+node1  | 09:45:32 [node1] INFO [PBFT] Sent COMMIT  seq=19
+node1  | 09:45:32 [node1] INFO [PBFT] Sent COMMIT  seq=19
+node1  | 09:45:32 [node1] INFO [PBFT] Sent COMMIT  seq=19
+node1  | 09:45:32 [node1] INFO [PBFT] Sent COMMIT  seq=19
+node1  | 09:45:33 [node1] INFO [PBFT] Accepted PRE-PREPARE seq=20 from node5
+node1  | 09:45:33 [node1] INFO [PBFT] Sent PREPARE  seq=20
+node1  | 09:45:33 [node1] INFO [PBFT] PREPARE quorum reached seq=20 (3 votes)
+node1  | 09:45:33 [node1] INFO [PBFT] Sent COMMIT  seq=20
+node1  | 09:45:33 [node1] INFO [PBFT] PREPARE quorum reached seq=20 (4 votes)
+node1  | 09:45:33 [node1] INFO [PBFT] PREPARE quorum reached seq=20 (5 votes)
+node1  | 09:45:33 [node1] INFO [LEDGER] Committed tx: TX-0020-1780825533436  (total=20)
+node1  | 09:45:33 [node1] INFO [PBFT] ✓ CONSENSUS REACHED  seq=20  tx=TX-0020-1780825533436
+node1  | 09:45:33 [node1] INFO [PBFT] Sent COMMIT  seq=20
+node1  | 09:45:33 [node1] INFO [PBFT] Sent COMMIT  seq=20
+node5  | 09:45:28 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=15 — IGNORED
+node5  | 09:45:29 [node5] INFO [CLIENT] Received transaction: TX-0016-1780825529426
+node5  | 09:45:29 [node5] INFO [PBFT] PRE-PREPARE  seq=16  tx=TX-0016-1780825529426
+node5  | 09:45:29 [node5] INFO [PBFT] PREPARE quorum reached seq=16 (3 votes)
+node5  | 09:45:29 [node5] INFO [PBFT] PREPARE quorum reached seq=16 (4 votes)
+node5  | 09:45:29 [node5] INFO [LEDGER] Committed tx: TX-0016-1780825529426  (total=16)
+node5  | 09:45:29 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=16  tx=TX-0016-1780825529426
+node5  | 09:45:29 [node5] INFO [PBFT] Sent PREPARE  seq=16
+node5  | 09:45:29 [node5] INFO [PBFT] Sent COMMIT  seq=16
+node5  | 09:45:29 [node5] INFO [PBFT] Sent COMMIT  seq=16
+node5  | 09:45:30 [node5] INFO [CLIENT] Received transaction: TX-0017-1780825530428
+node5  | 09:45:30 [node5] INFO [PBFT] PRE-PREPARE  seq=17  tx=TX-0017-1780825530428
+node5  | 09:45:30 [node5] INFO [PBFT] PREPARE quorum reached seq=17 (3 votes)
+node5  | 09:45:30 [node5] INFO [PBFT] Sent PREPARE  seq=17
+node5  | 09:45:30 [node5] INFO [LEDGER] Committed tx: TX-0017-1780825530428  (total=17)
+node5  | 09:45:30 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=17  tx=TX-0017-1780825530428
+node5  | 09:45:30 [node5] INFO [PBFT] Sent COMMIT  seq=17
+node5  | 09:45:30 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=17 — IGNORED
+node5  | 09:45:31 [node5] INFO [CLIENT] Received transaction: TX-0018-1780825531430
+node5  | 09:45:31 [node5] INFO [PBFT] PRE-PREPARE  seq=18  tx=TX-0018-1780825531430
+node5  | 09:45:31 [node5] INFO [PBFT] PREPARE quorum reached seq=18 (3 votes)
+node5  | 09:45:31 [node5] INFO [PBFT] Sent PREPARE  seq=18
+node5  | 09:45:31 [node5] INFO [PBFT] Sent COMMIT  seq=18
+node5  | 09:45:31 [node5] INFO [PBFT] PREPARE quorum reached seq=18 (4 votes)
+node5  | 09:45:31 [node5] INFO [PBFT] Sent COMMIT  seq=18
+node5  | 09:45:31 [node5] INFO [LEDGER] Committed tx: TX-0018-1780825531430  (total=18)
+node5  | 09:45:31 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=18  tx=TX-0018-1780825531430
+node5  | 09:45:32 [node5] INFO [CLIENT] Received transaction: TX-0019-1780825532433
+node5  | 09:45:32 [node5] INFO [PBFT] PRE-PREPARE  seq=19  tx=TX-0019-1780825532433
+node5  | 09:45:32 [node5] INFO [PBFT] Sent PREPARE  seq=19
+node5  | 09:45:32 [node5] INFO [PBFT] PREPARE quorum reached seq=19 (3 votes)
+node5  | 09:45:32 [node5] INFO [PBFT] PREPARE quorum reached seq=19 (4 votes)
+node5  | 09:45:32 [node5] INFO [LEDGER] Committed tx: TX-0019-1780825532433  (total=19)
+node5  | 09:45:32 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=19  tx=TX-0019-1780825532433
+node5  | 09:45:32 [node5] INFO [PBFT] Sent COMMIT  seq=19
+node5  | 09:45:32 [node5] INFO [PBFT] Sent COMMIT  seq=19
+node5  | 09:45:33 [node5] INFO [CLIENT] Received transaction: TX-0020-1780825533436
+node5  | 09:45:33 [node5] INFO [PBFT] PRE-PREPARE  seq=20  tx=TX-0020-1780825533436
+node5  | 09:45:33 [node5] INFO [PBFT] Sent PREPARE  seq=20
+node5  | 09:45:33 [node5] INFO [PBFT] PREPARE quorum reached seq=20 (3 votes)
+node5  | 09:45:33 [node5] INFO [PBFT] PREPARE quorum reached seq=20 (4 votes)
+node5  | 09:45:33 [node5] INFO [LEDGER] Committed tx: TX-0020-1780825533436  (total=20)
+node5  | 09:45:33 [node5] INFO [PBFT] ✓ CONSENSUS REACHED  seq=20  tx=TX-0020-1780825533436
+node5  | 09:45:33 [node5] INFO [PBFT] Sent COMMIT  seq=20
+node5  | 09:45:33 [node5] INFO [PBFT] Sent COMMIT  seq=20
+node5  | 09:45:33 [node5] WARNING [PBFT] BAD SIGNATURE on PRE-PREPARE from node5  seq=20 — IGNORED

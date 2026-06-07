@@ -1,0 +1,141 @@
+node6  | [entrypoint] Starting ADVERSARY node node6
+node6  | 09:45:14 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=1
+node6  | 09:45:14 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=1 digest=b82e6e5f… to node1
+node6  | 09:45:14 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=1 digest=b82e6e5f… to node2
+node6  | 09:45:14 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=1 digest=deadbeef… to node3
+node6  | 09:45:14 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=1 digest=deadbeef… to node4
+node6  | 09:45:14 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=1 digest=deadbeef… to node5
+node6  | 09:45:14 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=1
+node6  | 09:45:15 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=2
+node6  | 09:45:15 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=2 digest=0a70b192… to node1
+node6  | 09:45:15 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=2 digest=0a70b192… to node2
+node6  | 09:45:15 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=2 digest=deadbeef… to node3
+node6  | 09:45:15 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=2 digest=deadbeef… to node4
+node6  | 09:45:15 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=2 digest=deadbeef… to node5
+node6  | 09:45:15 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node1 seq=2
+node6  | 09:45:16 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=3
+node6  | 09:45:16 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=3 digest=cba0413a… to node1
+node6  | 09:45:16 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=3 digest=cba0413a… to node2
+node6  | 09:45:16 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=3 digest=deadbeef… to node3
+node6  | 09:45:16 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=3 digest=deadbeef… to node4
+node6  | 09:45:16 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=3 digest=deadbeef… to node5
+node6  | 09:45:16 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node3 seq=3
+node6  | 09:45:17 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=4
+node6  | 09:45:17 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=4 digest=2a276f2d… to node1
+node6  | 09:45:17 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=4 digest=2a276f2d… to node2
+node6  | 09:45:17 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=4 digest=deadbeef… to node3
+node6  | 09:45:17 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=4 digest=deadbeef… to node4
+node6  | 09:45:17 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=4 digest=deadbeef… to node5
+node6  | 09:45:17 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=4
+node6  | 09:45:18 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=5
+node6  | 09:45:18 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=5 digest=06bc9a91… to node1
+node6  | 09:45:18 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=5 digest=06bc9a91… to node2
+node6  | 09:45:18 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=5 digest=deadbeef… to node3
+node6  | 09:45:18 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=5 digest=deadbeef… to node4
+node6  | 09:45:18 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=5 digest=deadbeef… to node5
+node6  | 09:45:18 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node4 seq=5
+node6  | 09:45:19 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=6
+node6  | 09:45:19 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=6 digest=60eafd08… to node1
+node6  | 09:45:19 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=6 digest=60eafd08… to node2
+node6  | 09:45:19 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=6 digest=deadbeef… to node3
+node6  | 09:45:19 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=6 digest=deadbeef… to node4
+node6  | 09:45:19 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=6 digest=deadbeef… to node5
+node6  | 09:45:19 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node3 seq=6
+node6  | 09:45:20 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=7
+node6  | 09:45:20 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=7 digest=06947a9e… to node1
+node6  | 09:45:20 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=7 digest=06947a9e… to node2
+node6  | 09:45:20 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=7 digest=deadbeef… to node3
+node6  | 09:45:20 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=7 digest=deadbeef… to node4
+node6  | 09:45:20 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=7 digest=deadbeef… to node5
+node6  | 09:45:20 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=7
+node6  | 09:45:21 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=8
+node6  | 09:45:21 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=8 digest=b80b2e6f… to node1
+node6  | 09:45:21 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=8 digest=b80b2e6f… to node2
+node6  | 09:45:21 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=8 digest=deadbeef… to node3
+node6  | 09:45:21 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=8 digest=deadbeef… to node4
+node6  | 09:45:21 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=8 digest=deadbeef… to node5
+node6  | 09:45:21 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node2 seq=8
+node6  | 09:45:22 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=9
+node6  | 09:45:22 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=9 digest=6c5faf5a… to node1
+node6  | 09:45:22 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=9 digest=6c5faf5a… to node2
+node6  | 09:45:22 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=9 digest=deadbeef… to node3
+node6  | 09:45:22 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=9 digest=deadbeef… to node4
+node6  | 09:45:22 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=9 digest=deadbeef… to node5
+node6  | 09:45:22 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=9
+node6  | 09:45:23 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=10
+node6  | 09:45:23 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=10 digest=eb07eb9d… to node1
+node6  | 09:45:23 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=10 digest=eb07eb9d… to node2
+node6  | 09:45:23 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=10 digest=deadbeef… to node3
+node6  | 09:45:23 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=10 digest=deadbeef… to node4
+node6  | 09:45:23 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=10 digest=deadbeef… to node5
+node6  | 09:45:23 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node2 seq=10
+node6  | 09:45:24 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=11
+node6  | 09:45:24 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=11 digest=579c114b… to node1
+node6  | 09:45:24 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=11 digest=579c114b… to node2
+node6  | 09:45:24 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=11 digest=deadbeef… to node3
+node6  | 09:45:24 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=11 digest=deadbeef… to node4
+node6  | 09:45:24 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=11 digest=deadbeef… to node5
+node6  | 09:45:24 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=11
+node6  | 09:45:25 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=12
+node6  | 09:45:25 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=12 digest=f85dfb2d… to node1
+node6  | 09:45:25 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=12 digest=f85dfb2d… to node2
+node6  | 09:45:25 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=12 digest=deadbeef… to node3
+node6  | 09:45:25 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=12 digest=deadbeef… to node4
+node6  | 09:45:25 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=12 digest=deadbeef… to node5
+node6  | 09:45:25 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=12
+node6  | 09:45:26 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=13
+node6  | 09:45:26 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=13 digest=666aa2ef… to node1
+node6  | 09:45:26 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=13 digest=666aa2ef… to node2
+node6  | 09:45:26 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=13 digest=deadbeef… to node3
+node6  | 09:45:26 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=13 digest=deadbeef… to node4
+node6  | 09:45:26 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=13 digest=deadbeef… to node5
+node6  | 09:45:26 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=13
+node6  | 09:45:27 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=14
+node6  | 09:45:27 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=14 digest=ff54c1d4… to node1
+node6  | 09:45:27 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=14 digest=ff54c1d4… to node2
+node6  | 09:45:27 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=14 digest=deadbeef… to node3
+node6  | 09:45:27 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=14 digest=deadbeef… to node4
+node6  | 09:45:27 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=14 digest=deadbeef… to node5
+node6  | 09:45:27 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node3 seq=14
+node6  | 09:45:28 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=15
+node6  | 09:45:28 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=15 digest=b3cd9de3… to node1
+node6  | 09:45:28 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=15 digest=b3cd9de3… to node2
+node6  | 09:45:28 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=15 digest=deadbeef… to node3
+node6  | 09:45:28 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=15 digest=deadbeef… to node4
+node6  | 09:45:28 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=15 digest=deadbeef… to node5
+node6  | 09:45:28 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=15
+node6  | 09:45:29 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=16
+node6  | 09:45:29 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=16 digest=10ba63e6… to node1
+node6  | 09:45:29 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=16 digest=10ba63e6… to node2
+node6  | 09:45:29 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=16 digest=deadbeef… to node3
+node6  | 09:45:29 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=16 digest=deadbeef… to node4
+node6  | 09:45:29 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=16 digest=deadbeef… to node5
+node6  | 09:45:29 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node4 seq=16
+node6  | 09:45:30 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=17
+node6  | 09:45:30 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=17 digest=fbd69634… to node1
+node6  | 09:45:30 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=17 digest=fbd69634… to node2
+node6  | 09:45:30 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=17 digest=deadbeef… to node3
+node6  | 09:45:30 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=17 digest=deadbeef… to node4
+node6  | 09:45:30 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=17 digest=deadbeef… to node5
+node6  | 09:45:30 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=17
+node6  | 09:45:31 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=18
+node6  | 09:45:31 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=18 digest=1cc0ca3a… to node1
+node6  | 09:45:31 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=18 digest=1cc0ca3a… to node2
+node6  | 09:45:31 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=18 digest=deadbeef… to node3
+node6  | 09:45:31 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=18 digest=deadbeef… to node4
+node6  | 09:45:31 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=18 digest=deadbeef… to node5
+node6  | 09:45:31 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node4 seq=18
+node6  | 09:45:32 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=19
+node6  | 09:45:32 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=19 digest=3979d6d7… to node1
+node6  | 09:45:32 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=19 digest=3979d6d7… to node2
+node6  | 09:45:32 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=19 digest=deadbeef… to node3
+node6  | 09:45:32 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=19 digest=deadbeef… to node4
+node6  | 09:45:32 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=19 digest=deadbeef… to node5
+node6  | 09:45:32 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node2 seq=19
+node6  | 09:45:33 [node6[ADVERSARY]] WARNING [ADVERSARY] Equivocating PREPARE for seq=20
+node6  | 09:45:33 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=20 digest=69d49aea… to node1
+node6  | 09:45:33 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=20 digest=69d49aea… to node2
+node6  | 09:45:33 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=20 digest=deadbeef… to node3
+node6  | 09:45:33 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=20 digest=deadbeef… to node4
+node6  | 09:45:33 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent PREPARE seq=20 digest=deadbeef… to node5
+node6  | 09:45:33 [node6[ADVERSARY]] WARNING [ADVERSARY] Sent forged PRE-PREPARE to node5 seq=20

@@ -1,0 +1,134 @@
+# ─── shared volumes ──────────────────────────────────────────
+volumes:
+  keys:
+  ledger:
+
+# ─── common environment for ALL honest nodes ─────────────────
+x-node-common: &node-common
+  build: .
+  volumes:
+    - keys:/app/keys
+    - ledger:/app/ledger
+  depends_on:
+    - toxiproxy
+  restart: unless-stopped
+
+# ─── services ────────────────────────────────────────────────
+services:
+
+  node1:
+    <<: *node-common
+    container_name: node1
+    hostname: node1
+    environment:
+      NODE_ID:   node1
+      NODE_PORT: "5001"
+      PEERS: "node2:node2:5002,node3:node3:5003,node4:node4:5004,node5:node5:5005"
+      MODE: "B"          # ← change ALL five to "B" for PBFT testing
+      KEYS_DIR: /app/keys
+      MALICIOUS: "false"
+    ports:
+      - "5001:5001"
+
+  node2:
+    <<: *node-common
+    container_name: node2
+    hostname: node2
+    environment:
+      NODE_ID:   node2
+      NODE_PORT: "5002"
+      PEERS: "node1:node1:5001,node3:node3:5003,node4:node4:5004,node5:node5:5005"
+      MODE: "B"
+      KEYS_DIR: /app/keys
+      MALICIOUS: "false"
+    ports:
+      - "5002:5002"
+
+  node3:
+    <<: *node-common
+    container_name: node3
+    hostname: node3
+    environment:
+      NODE_ID:   node3
+      NODE_PORT: "5003"
+      PEERS: "node1:node1:5001,node2:node2:5002,node4:node4:5004,node5:node5:5005"
+      MODE: "B"
+      KEYS_DIR: /app/keys
+      MALICIOUS: "false"
+    ports:
+      - "5003:5003"
+
+  node4:
+    <<: *node-common
+    container_name: node4
+    hostname: node4
+    environment:
+      NODE_ID:   node4
+      NODE_PORT: "5004"
+      PEERS: "node1:node1:5001,node2:node2:5002,node3:node3:5003,node5:node5:5005"
+      MODE: "B"
+      KEYS_DIR: /app/keys
+      MALICIOUS: "false"
+    ports:
+      - "5004:5004"
+
+  node5:
+    <<: *node-common
+    container_name: node5
+    hostname: node5
+    environment:
+      NODE_ID:   node5
+      NODE_PORT: "5005"
+      PEERS: "node1:node1:5001,node2:node2:5002,node3:node3:5003,node4:node4:5004,node6:node6:5006"
+      MODE: "B"
+      KEYS_DIR: /app/keys
+      MALICIOUS: "false"
+    ports:
+      - "5005:5005"
+
+  # ── adversary (node6) — only with: docker compose --profile pbft up ──
+  adversary:
+    <<: *node-common
+    container_name: node6
+    hostname: node6
+    profiles:
+      - pbft
+    environment:
+      NODE_ID:   node6
+      NODE_PORT: "5006"
+      # node6 knows about honest nodes but honest nodes do NOT list node6 in PEERS
+      # This means node6 can send to them but they don't actively heartbeat it
+      PEERS: "node1:node1:5001,node2:node2:5002,node3:node3:5003,node4:node4:5004,node5:node5:5005"
+      MODE: "B"
+      KEYS_DIR: /app/keys
+      MALICIOUS: "true"
+    ports:
+      - "5006:5006"
+
+  # ── client ───────────────────────────────────────────────────
+  client:
+    build: .
+    container_name: client
+    volumes:
+      - keys:/app/keys
+    depends_on:
+      - node1
+      - node2
+      - node3
+    environment:
+      NODES: "node1:node1:5001,node2:node2:5002,node3:node3:5003,node4:node4:5004,node5:node5:5005"
+    entrypoint: ["python", "/app/src/client.py"]
+    command: ["--count", "30", "--interval", "1.0"]
+    profiles:
+      - client
+
+  # ── toxiproxy (fault injection) ──────────────────────────────
+  toxiproxy:
+    image: ghcr.io/shopify/toxiproxy:2.8.0
+    container_name: toxiproxy
+    ports:
+      - "8474:8474"
+      - "15001:15001"
+      - "15002:15002"
+      - "15003:15003"
+    restart: unless-stopped
